@@ -1,0 +1,927 @@
+.,English
+quest.name,Hunt01Kraken
+EventH1S1.button1,{qst:Continue}
+EventH1S1.text,...going out to sea.\nOn a boat apparantly.\n\n
+EventPTrenter.button1,{qst:Continue}
+EventH1Investigators.text,Place investigator tokens as indicated.
+EventH1Investigators.button1,{qst:Continue}
+EventH1YeMRentingBoat.text,<i>Yes they called ahead.</i> He points to the end of the dock. <i>There was something about directions as well, but...</i> he mutters something unintelligible then coughs into his fist.\n\nPlace the {c:TileH1Boat} tile and an interact token as indicated.
+TokenH1RentalGuy.button3,{action} Ask about the monster.
+TokenH1RentalGuy.text,A man is sitting behind the counter. He smiles widely, obviously eager for customers but every so often he hides a yawn with his mouth.
+TokenH1RentalGuy.button1,{action} Rent a boat.
+EventPTrenter.text,Your contact led you to this boat rental somewhere between nowhere and elsewhere.\n\nAs you leave your car, you notice a man standing behind the counter of the rental shop.\n\nPlace the yellow person token as indicated.
+EventH1YeMRentingBoat.button1,{qst:Continue}
+EventH1PTBoat.text,<i>Right! urm, on the boat. I left the directions on the boat as asked by your employer!</i>\n\nPlace the Research token as indicated.
+EventH1PTBoat.button1,{qst:Continue}
+EventH1YeMAboutMonster.text,It's gigantic, comes out of nowhere and is literally everywhere, it's so big. It will tear your boat apart if given enough time. If you see it, turn around. But take lots of pictures. I heard from my uncles wifes cousin that it has problem with light.\n\nHe looks outside at the sun closing in on the horizon and wishes you good luck.
+EventMove1.button1,{qst:Continue}
+EventMove2.button1,{qst:Continue}
+EventMove3.button1,{qst:Continue}
+EventMove1.text,The boat putters a bit and starts moving.\nRemove the interact token and move the tile as indicated.
+EventMove2.text,The gap between you and the mainland seems infinite from the start,
+EventMove3.text,even though you could make the jump.
+EventMove4.text,It feels wrong. You are on your way.
+EventMove6.text,the sea at night which knows no light
+EventMove5.text,About to be swallowed by the gaping dark
+EventMove7.text,and the monster that lies in wait.
+EventMove7.button1,{qst:Continue}
+TokenH1Instructions.text,You pick up a letter telling you to sail far enough out to not see the shore and wait. You study both sides of the letter in the hopes that something, anything more helpful would appear.\nAfter putting the letter away you remember a P.S. saying there's a chest in the cabin that might be of some use.
+EventH1YeMAboutMonster.button1,{qst:Continue}
+EventH1YeMAboutArea.text,There's  not much to say really. We used to have more ships through here, but then again we never had much. We aren't that close to anything important.\n\nThe man sighs despondently. Now there's a monster here. Finally something to put us on the map and I heard from old Foster that someone is going to come any day to kill it. It's just unfair really.
+TokenFLhole.text,There's a hole ment for a fishing pole to slide into.
+TokenFLhole.button1,{action} Place gun
+TokenFRhole.text,There's a hole ment for a fishing pole to slide into.
+TokenFRhole.button1,{action} Place gun
+TokenBRhole.text,There's a hole ment for a fishing pole to slide into.
+TokenBRhole.button1,{action} Place gun
+TokenBLhole.text,There's a hole ment for a fishing pole to slide into.
+TokenBLhole.button1,{action} Place gun
+TokenReCabinChest.text,The note said to look in the chest in the cabin. Therefore, something must be in this chest. Although something is very clearly telling you that the chest is unimportant. Roll {observation} and enter the number of succeses
+TokenReCabinChest.button1,{qst:Continue}
+TokenReCabinChest.button2,Fail
+EventCabinBoxFail.button1,{qst:Continue}
+TokenBLgun.button1,{action} Fire
+TokenBLgun.button2,Pick up gun
+EventPickUpGun.button1,{qst:Continue}
+EventReCabinBoxPass.text,Place an interact token in each of the 4 corners of the boat as indicated.\nAlso this Research token now represents the harpoon gun.
+EventLBPlaceGun.text,Place the Research Token from your character card onto the Interact Token as indicated.
+EventLBPlaceGun.button1,{qst:Continue}
+EventReCabinBoxPass.button1,{qst:Continue}
+EventPickUpGun.text,Take the Research token representing the Harpoon gun and place it on your character sheet.
+EventCabinBoxFail.text,No, the note must mean another chest. Possibly in another boat entirely. Best to look elsewhere.
+EventFireGun.text,You fire into the water and hit.\nkraken is now at {var:KrakenHealth}
+EventFireGun.button1,{qst:Continue}
+TokenH1RentalGuy.button2,{action} Ask about the area.
+EventH1YeMAboutArea.button1,{qst:Continue}
+EventBLPlaceGun.button1,{qst:EventH1S1.button1}
+EventBLPlaceGun.text,You carefully slide the gun into place.
+EventBRPlaceGun.text,{qst:EventBLPlaceGun.text}
+EventFLPlaceGun.text,{qst:EventBLPlaceGun.text}
+EventFRPlaceGun.text,{qst:EventBLPlaceGun.text}
+TokenBLgun.text,The gun is ready to fire into the water.
+TokenBRgun.text,{qst:TokenBLgun.text}
+TokenBRgun.button1,{qst:TokenBLgun.button1}
+TokenBRgun.button2,{qst:TokenBLgun.button2}
+TokenFRgun.text,{qst:TokenBLgun.text}
+TokenFRgun.button1,{qst:TokenBLgun.button1}
+TokenFRgun.button2,{qst:TokenBLgun.button2}
+TokenFLgun.text,{qst:TokenBLgun.text}
+TokenFLgun.button1,{qst:TokenBLgun.button1}
+TokenFLgun.button2,{qst:TokenBLgun.button2}
+CustomMonsterKrakenTentacle.info,It's a tentacle. In itself only a limb, attached somewhere to the actual beast. But this is what you have in front of you right now.
+CustomMonsterKrakenTentacle.monstername,Tentacle
+TokenSNBoat.text,There's a tube attached to the side of the boat reminiscent of a uboats periscope. But,  given that it's on a boat rather than a submersible, it probably is a device to look at the monster beneath the waves.
+TokenSNBoat.button1,{action} Search the water
+EventVisibleKrakenPass.text,There! You see the creature. If you shoot from this side of the boat you're at least halfsure to hit it.
+EventVisibleKrakenPass.button1,{qst:Continue}
+EventVisibleKrakenFail.button1,{qst:Continue}
+EventVisibleKrakenFail.text,There creature isn't on this side of the boat.
+EventBoatBinoculars.text,<i>If you want to see the monster up close, there's four underwater binoculars attached to the boat. Please be careful with them there's going to be many tourist eventually to see the monster and they'll also want a good look.</i>\nPlace 4 Sight tokens as indicated.
+EventBoatBinoculars.button1,{qst:Continue}
+CustomMonsterKraken.info,-
+Spawn1Tentacle.button1,{qst:Continue}
+CustomMonsterKraken.monstername,Kraken
+Spawn1Tentacle.text,{qst:Spawn0Tentacle.text}
+TokenSWTentacle.text,{qst:TokenSNTentacle.text}
+TokenSETentacle.text,{qst:TokenSNTentacle.text}
+TokenBLTentacle.text,{qst:TokenSNTentacle.text}
+TokenBRTentacle.text,{qst:TokenSNTentacle.text}
+TokenSNTentacle.text,There's a tentacle in the way. It seems obvious that you'll have to do some pruning to make any headway in defeating the beast. And too many tentacles may just break the boat apart.
+TokenSSTentacle.text,{qst:TokenSNTentacle.text}
+TokenFLTentacle.text,{qst:TokenSNTentacle.text}
+TokenFRTentacle.text,{qst:TokenSNTentacle.text}
+CustomMonsterKrakenTentacle0.monstername,Tentacle
+EventEvadeTentacles.text,You walk away from the tentacle, it's far more concerned with trying to damage boat than you. Which is a worry seeing as you're on the boat.
+EventEvadeTentacles.button1,Continue
+Spawn0Tentaclehp0.text,A giant tentacle slowly rises out of the water and attaches itself to the ship starting to pull.
+EventEndFail.button1,Continue
+EventEndSuccess.button1,Continue
+EventEndFail.text,Everyone is running around like mad, trying to dislodge the tentacles rising up one by one from the depths. the creaking sounds that you've been hearing for a while now suddenly register for what they are and you look around in despair. The tentacles, there's too many of them!\n\nThe creaking turns into a keening and then... water. Water everywhere. You don't know what is up or down.\n\nThe next thing you know, you're on a beach next to your  friends  who were on the boat with you. You need to head back to the shop and see if anyone else managed to catch that thing.
+EventNewTentacles.button1,Button1
+TokenUnmoor.button1,Unmoor ship
+TokenUnmoor.text,If everyone is on the ship it's time to leave the dock.
+EventTimePasses.button1,Button1
+EventGetOnTheBoat.text,You all blackout.
+EventGetOnTheBoat.button1,Continue
+EventInvOnBoat.text,You come to, wondering what happened. Apparantly you've all moved onto the boat and judging by the rope in the hand of {rnd:hero}, you yourselves left the dock.\n\nPlace investigators as indicated.
+EventInvOnBoat.button1,Continue
+TokenSNTentacle.button1,Continue
+EventIfGunWasTentacled.text,As the tentacle falls away, the gun is available again.
+EventIfGunWasTentacled.button1,Continue
+EventCheckNrTentacles.button1,Button1
+EventPTTentacles.button1,Button1
+TokenSSBoat.button1,{qst:TokenSNBoat.button1}
+TokenSWBoat.text,{qst:TokenSNBoat.text}
+TokenSEBoat.text,There's a tube attached to the side of the boat reminiscent of a uboats periscope. But,  given that it's on a boat rather than a submersible, it probably is a device to look at the monster beneath the waves.
+TokenSSBoat.text,{qst:TokenSNBoat.text}
+TokenSWBoat.button1,{qst:TokenSNBoat.button1}
+TokenSEBoat.button1,{qst:TokenSNBoat.button1}
+EventPTTentacleToken2WithGun.text,b
+EventPTTentacleToken2WithGun.button1,Continue
+EventDifficultyAdjuster.button1,Button1
+EventThreatAdjuster.button1,Button1
+EventKrakenHealthAdjuster.button1,Button1
+EventSpawningTentacles.button1,Continue
+Spawn1Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp0.button1,{qst:Continue}
+Spawn2Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp0.button1,{qst:Continue}
+Spawn3Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp0.button1,{qst:Continue}
+Spawn4Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp0.button1,{qst:Continue}
+Spawn5Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp0.button1,{qst:Continue}
+Spawn6Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp0.button1,{qst:Continue}
+Spawn7Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp0.button1,{qst:Continue}
+Spawn8Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp0.button1,{qst:Continue}
+Spawn9Tentaclehp0.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp0.button1,{qst:Continue}
+Spawn0Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp1.button1,{qst:Continue}
+Spawn1Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp1.button1,{qst:Continue}
+Spawn2Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp1.button1,{qst:Continue}
+Spawn3Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp1.button1,{qst:Continue}
+Spawn4Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp1.button1,{qst:Continue}
+Spawn5Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp1.button1,{qst:Continue}
+Spawn6Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp1.button1,{qst:Continue}
+Spawn7Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp1.button1,{qst:Continue}
+Spawn8Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp1.button1,{qst:Continue}
+Spawn9Tentaclehp1.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp1.button1,{qst:Continue}
+Spawn0Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp2.button1,{qst:Continue}
+Spawn1Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp2.button1,{qst:Continue}
+Spawn2Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp2.button1,{qst:Continue}
+Spawn3Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp2.button1,{qst:Continue}
+Spawn4Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp2.button1,{qst:Continue}
+Spawn5Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp2.button1,{qst:Continue}
+Spawn6Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp2.button1,{qst:Continue}
+Spawn7Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp2.button1,{qst:Continue}
+Spawn8Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp2.button1,{qst:Continue}
+Spawn9Tentaclehp2.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp2.button1,{qst:Continue}
+Spawn0Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp3.button1,{qst:Continue}
+Spawn1Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp3.button1,{qst:Continue}
+Spawn2Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp3.button1,{qst:Continue}
+Spawn3Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp3.button1,{qst:Continue}
+Spawn4Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp3.button1,{qst:Continue}
+Spawn5Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp3.button1,{qst:Continue}
+Spawn6Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp3.button1,{qst:Continue}
+Spawn7Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp3.button1,{qst:Continue}
+Spawn8Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp3.button1,{qst:Continue}
+Spawn9Tentaclehp3.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp3.button1,{qst:Continue}
+Spawn0Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp4.button1,{qst:Continue}
+Spawn1Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp4.button1,{qst:Continue}
+Spawn2Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp4.button1,{qst:Continue}
+Spawn3Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp4.button1,{qst:Continue}
+Spawn4Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp4.button1,{qst:Continue}
+Spawn5Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp4.button1,{qst:Continue}
+Spawn6Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp4.button1,{qst:Continue}
+Spawn7Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp4.button1,{qst:Continue}
+Spawn8Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp4.button1,{qst:Continue}
+Spawn9Tentaclehp4.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp4.button1,{qst:Continue}
+Spawn0Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp5.button1,{qst:Continue}
+Spawn1Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp5.button1,{qst:Continue}
+Spawn2Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp5.button1,{qst:Continue}
+Spawn3Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp5.button1,{qst:Continue}
+Spawn4Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp5.button1,{qst:Continue}
+Spawn5Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp5.button1,{qst:Continue}
+Spawn6Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp5.button1,{qst:Continue}
+Spawn7Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp5.button1,{qst:Continue}
+Spawn8Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp5.button1,{qst:Continue}
+Spawn9Tentaclehp5.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp5.button1,{qst:Continue}
+Spawn0Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp6.button1,{qst:Continue}
+Spawn1Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp6.button1,{qst:Continue}
+Spawn2Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp6.button1,{qst:Continue}
+Spawn3Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp6.button1,{qst:Continue}
+Spawn4Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp6.button1,{qst:Continue}
+Spawn5Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp6.button1,{qst:Continue}
+Spawn6Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp6.button1,{qst:Continue}
+Spawn7Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp6.button1,{qst:Continue}
+Spawn8Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp6.button1,{qst:Continue}
+Spawn9Tentaclehp6.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp6.button1,{qst:Continue}
+Spawn0Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp7.button1,{qst:Continue}
+Spawn1Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp7.button1,{qst:Continue}
+Spawn2Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp7.button1,{qst:Continue}
+Spawn3Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp7.button1,{qst:Continue}
+Spawn4Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp7.button1,{qst:Continue}
+Spawn5Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp7.button1,{qst:Continue}
+Spawn6Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp7.button1,{qst:Continue}
+Spawn7Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp7.button1,{qst:Continue}
+Spawn8Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp7.button1,{qst:Continue}
+Spawn9Tentaclehp7.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp7.button1,{qst:Continue}
+Spawn0Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp8.button1,{qst:Continue}
+Spawn1Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp8.button1,{qst:Continue}
+Spawn2Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp8.button1,{qst:Continue}
+Spawn3Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp8.button1,{qst:Continue}
+Spawn4Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp8.button1,{qst:Continue}
+Spawn5Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp8.button1,{qst:Continue}
+Spawn6Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp8.button1,{qst:Continue}
+Spawn7Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp8.button1,{qst:Continue}
+Spawn8Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp8.button1,{qst:Continue}
+Spawn9Tentaclehp8.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp8.button1,{qst:Continue}
+Spawn0Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp9.button1,{qst:Continue}
+Spawn1Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp9.button1,{qst:Continue}
+Spawn2Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp9.button1,{qst:Continue}
+Spawn3Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp9.button1,{qst:Continue}
+Spawn4Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp9.button1,{qst:Continue}
+Spawn5Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp9.button1,{qst:Continue}
+Spawn6Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp9.button1,{qst:Continue}
+Spawn7Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp9.button1,{qst:Continue}
+Spawn8Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp9.button1,{qst:Continue}
+Spawn9Tentaclehp9.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp9.button1,{qst:Continue}
+Spawn0Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp10.button1,{qst:Continue}
+Spawn1Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp10.button1,{qst:Continue}
+Spawn2Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp10.button1,{qst:Continue}
+Spawn3Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp10.button1,{qst:Continue}
+Spawn4Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp10.button1,{qst:Continue}
+Spawn5Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp10.button1,{qst:Continue}
+Spawn6Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp10.button1,{qst:Continue}
+Spawn7Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp10.button1,{qst:Continue}
+Spawn8Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp10.button1,{qst:Continue}
+Spawn9Tentaclehp10.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp10.button1,{qst:Continue}
+Spawn0Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp11.button1,{qst:Continue}
+Spawn1Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp11.button1,{qst:Continue}
+Spawn2Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp11.button1,{qst:Continue}
+Spawn3Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp11.button1,{qst:Continue}
+Spawn4Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp11.button1,{qst:Continue}
+Spawn5Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp11.button1,{qst:Continue}
+Spawn6Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp11.button1,{qst:Continue}
+Spawn7Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp11.button1,{qst:Continue}
+Spawn8Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp11.button1,{qst:Continue}
+Spawn9Tentaclehp11.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp11.button1,{qst:Continue}
+Spawn0Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp12.button1,{qst:Continue}
+Spawn1Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp12.button1,{qst:Continue}
+Spawn2Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp12.button1,{qst:Continue}
+Spawn3Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp12.button1,{qst:Continue}
+Spawn4Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp12.button1,{qst:Continue}
+Spawn5Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp12.button1,{qst:Continue}
+Spawn6Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp12.button1,{qst:Continue}
+Spawn7Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp12.button1,{qst:Continue}
+Spawn8Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp12.button1,{qst:Continue}
+Spawn9Tentaclehp12.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp12.button1,{qst:Continue}
+Spawn0Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp13.button1,{qst:Continue}
+Spawn1Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp13.button1,{qst:Continue}
+Spawn2Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp13.button1,{qst:Continue}
+Spawn3Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp13.button1,{qst:Continue}
+Spawn4Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp13.button1,{qst:Continue}
+Spawn5Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp13.button1,{qst:Continue}
+Spawn6Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp13.button1,{qst:Continue}
+Spawn7Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp13.button1,{qst:Continue}
+Spawn8Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp13.button1,{qst:Continue}
+Spawn9Tentaclehp13.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp13.button1,{qst:Continue}
+Spawn0Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp14.button1,{qst:Continue}
+Spawn1Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp14.button1,{qst:Continue}
+Spawn2Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp14.button1,{qst:Continue}
+Spawn3Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp14.button1,{qst:Continue}
+Spawn4Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp14.button1,{qst:Continue}
+Spawn5Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp14.button1,{qst:Continue}
+Spawn6Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp14.button1,{qst:Continue}
+Spawn7Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp14.button1,{qst:Continue}
+Spawn8Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp14.button1,{qst:Continue}
+Spawn9Tentaclehp14.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp14.button1,{qst:Continue}
+Spawn0Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp15.button1,{qst:Continue}
+Spawn1Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp15.button1,{qst:Continue}
+Spawn2Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp15.button1,{qst:Continue}
+Spawn3Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp15.button1,{qst:Continue}
+Spawn4Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp15.button1,{qst:Continue}
+Spawn5Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp15.button1,{qst:Continue}
+Spawn6Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp15.button1,{qst:Continue}
+Spawn7Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp15.button1,{qst:Continue}
+Spawn8Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp15.button1,{qst:Continue}
+Spawn9Tentaclehp15.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp15.button1,{qst:Continue}
+Spawn0Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp16.button1,{qst:Continue}
+Spawn1Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp16.button1,{qst:Continue}
+Spawn2Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp16.button1,{qst:Continue}
+Spawn3Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp16.button1,{qst:Continue}
+Spawn4Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp16.button1,{qst:Continue}
+Spawn5Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp16.button1,{qst:Continue}
+Spawn6Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp16.button1,{qst:Continue}
+Spawn7Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp16.button1,{qst:Continue}
+Spawn8Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp16.button1,{qst:Continue}
+Spawn9Tentaclehp16.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp16.button1,{qst:Continue}
+Spawn0Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp17.button1,{qst:Continue}
+Spawn1Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp17.button1,{qst:Continue}
+Spawn2Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp17.button1,{qst:Continue}
+Spawn3Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp17.button1,{qst:Continue}
+Spawn4Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp17.button1,{qst:Continue}
+Spawn5Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp17.button1,{qst:Continue}
+Spawn6Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp17.button1,{qst:Continue}
+Spawn7Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp17.button1,{qst:Continue}
+Spawn8Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp17.button1,{qst:Continue}
+Spawn9Tentaclehp17.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp17.button1,{qst:Continue}
+Spawn0Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp18.button1,{qst:Continue}
+Spawn1Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp18.button1,{qst:Continue}
+Spawn2Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp18.button1,{qst:Continue}
+Spawn3Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp18.button1,{qst:Continue}
+Spawn4Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp18.button1,{qst:Continue}
+Spawn5Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp18.button1,{qst:Continue}
+Spawn6Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp18.button1,{qst:Continue}
+Spawn7Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp18.button1,{qst:Continue}
+Spawn8Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp18.button1,{qst:Continue}
+Spawn9Tentaclehp18.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp18.button1,{qst:Continue}
+Spawn0Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp19.button1,{qst:Continue}
+Spawn1Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp19.button1,{qst:Continue}
+Spawn2Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp19.button1,{qst:Continue}
+Spawn3Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp19.button1,{qst:Continue}
+Spawn4Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp19.button1,{qst:Continue}
+Spawn5Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp19.button1,{qst:Continue}
+Spawn6Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp19.button1,{qst:Continue}
+Spawn7Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp19.button1,{qst:Continue}
+Spawn8Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp19.button1,{qst:Continue}
+Spawn9Tentaclehp19.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp19.button1,{qst:Continue}
+Spawn0Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn0Tentaclehp20.button1,{qst:Continue}
+Spawn1Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn1Tentaclehp20.button1,{qst:Continue}
+Spawn2Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn2Tentaclehp20.button1,{qst:Continue}
+Spawn3Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn3Tentaclehp20.button1,{qst:Continue}
+Spawn4Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn4Tentaclehp20.button1,{qst:Continue}
+Spawn5Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn5Tentaclehp20.button1,{qst:Continue}
+Spawn6Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn6Tentaclehp20.button1,{qst:Continue}
+Spawn7Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn7Tentaclehp20.button1,{qst:Continue}
+Spawn8Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn8Tentaclehp20.button1,{qst:Continue}
+Spawn9Tentaclehp20.text,{qst:Spawn0Tentaclehp0.text}
+Spawn9Tentaclehp20.button1,{qst:Continue}
+Spawn0Tentaclehp0.button1,Continue
+CustomMonsterKrakenTentacle0.Attack_firearm_1,You aim the firearm in the general direction of the tentacle and hope fore the best. ({agility};2) if you pass, the tentacle suffers damage equal to the weapons damage plus your rolled sucesses.\nif you fail, the tentacle squezes hard and you can hear the groan of the ship. you suffer 1 facedown horror.
+CustomMonsterKrakenTentacle0.Attack_firearm_2,As you fire, your shots seem to barely faze the creature. You search for any vulnerability that you can exploit (; 2). If you pass, you seem to find such a spot and finally your shots begin to register; the tentacle suffers damage equal to the weapon's damage. If you fail, you begin to lose hope of ever affecting the creature.
+CustomMonsterKrakenTentacle0.Attack_bladed_1,You approach the tentacle with the intent of sinking your blade deep into it (; 2). If you pass, your blade punches a grizzly hole in the appendage; the monster suffers damage equal to the weapon's damage plus your test result. If you fail, the appendage whips up with supernatural speed and catches you in the side of the head; become Dazed.
+CustomMonsterKrakenTentacle0.Attack_heavy_1,You channel all of your fear and aggression into one powerful swing (; 1). If you pass, the sound and feel of the impact brings a crazed smile to your lips; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, you cry out in impotent rage.
+CustomMonsterKrakenTentacle0.Attack_spell_1,A pulsing sphere of darkness forms in your hand as you begin the incantation (; 2). If you pass, your words charge the sphere with terrible power and you loose it at your foe; the tentacle suffers damage equal to the Spell's damage. If you fail, you fumble the wording and the sphere erupts in midair; you suffer 1 Damage and the tentacle suffers 1 damage.\n\nThen flip the Spell you attacked with.
+CustomMonsterKrakenTentacle0.Attack_unarmed_1,You grab the first heavy object that you can find and hurl it as hard as you can (+1). The tentacle suffers damage equal to your test result.
+CustomMonsterKrakenTentacle0.Attack_unarmed_2,You desperately search for something to use as a weapon (; 2). If you pass, your hand lands on something long and sharp, which you jam into1nd kick your legs out toward the tentacle (; 2). If you pass, the kick carries the full weight of your body behind it; the limb suffers 3 damage. If you fail, you misstep on the rocking deck underneath and land hard; suffer 1 facedown Damage.
+CustomMonsterKrakenTentacle0.Attack_unarmed_3,With empty hands and the tentacle looming over you, you struggle to work up the courage to attack. An equal measure of bravery and insanity fuels your attack, and you lash out at the appendage (); roll 2 extra dice if you have suffered 3 or more Horror. The limb suffers damage equal to your test result.
+CustomMonsterKrakenTentacle0.Attack_unarmed_4,Fear rises inside you, and you react almost without thought, swinging and striking with animalistic desperation (; 2). If you pass, you take some small measure of comfort in the tentacle's pained reaction; the limb suffers damage equal to your test result plus 1. If you fail, the tentacle seems unaware of your attack.
+CustomMonsterKrakenTentacle0.Attack_spell_2,Alien words and symbols flash through your mind, and you try to make sense of them (; 2); roll 2 extra dice if you have suffered 3 or more Horror. If you pass, you decipher the arcane meaning and dark energy pours out from you; the tentacle suffers damage equal to your test result. If you fail, you glean no meaning from the foreign sights and sounds.\n\nThen flip the Spell you attacked with.
+CustomMonsterKrakenTentacle0.Attack_spell_3,In the moment, your mind goes blank, and you struggle to recall the words you learned. You rack your brain for the correct incantation (; 2). If you pass, the words come to you in a flash of insight and you recite them in a voice that is not completely your own; the tentacle suffers damage equal to the Spell's damage plus your test result. If you fail, you mumble the first few words then stop as the rest eludes you.\n\nThen flip the Spell you attacked with.
+CustomMonsterKrakenTentacle0.Attack_spell_4,You begin reciting the incantation, but with each proceeding syllable some force in your mind wills you to stop. You do your best to push past the impulse (; 2). If you pass, you complete the chant, power welling up from you and lashing out at the tentacle; it suffers damage equal to the Spell's damage plus your test result. If you fail, the weight in your mind presses until you cannot bring yourself to continue.\n\nThen flip the Spell you attacked with.
+CustomMonsterKrakenTentacle0.Attack_spell_5,Your eyes open wide as eldritch energy surges through you. You struggle to harness the power (; 2). If you pass, the energy coalesces in your hands and you unleash it toward your foe; the tentacle suffers damage equal to the Spell's damage plus your test result. If you fail, you lose control of the energy and it dissipates into the air around you.\n\nThen flip the Spell you attacked with.
+CustomMonsterKrakenTentacle0.Attack_spell_6,With sudden clarity you walk up and lay you palm on the tentacle. You intone the words of the spell under your breath (; 2). If you pass, the effect is instantaneous; the monster suffers damage equal to the Spell's damage plus your test result. If you fail, the energy explodes in your hand. You and the tentacle suffer damage equal to the Spell's damage.\n\nThen flip the Spell you attacked with.
+CustomMonsterKrakenTentacle0.Attack_heavy_2,You charge the tentacle, your weapon rising in a brutal, upward swing (; 2). If you pass, the full weight of your blow strikes the kmmobile limb; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, the momentum carries you off-balance and you struggle to stabilize your footing.
+CustomMonsterKrakenTentacle0.Attack_heavy_3,You bring your weapon down, attempting to crush any monstrous appendage within reach (; 2). If you pass, your swing connects and the gruesome noise of the impact makes your stomach turn; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, the appendage retaliates faster than you could have anticipated and you slam into the ground, barely maintaining a hold on your weapon as a shock runs up your arms.
+CustomMonsterKrakenTentacle0.Attack_heavy_4,You swing the weapon in a tight circle, building up momentum before thrusting out toward the tentacle (; 2). If you pass, the speeding weapon slams into the appendage; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, you lose control of the spin and fumble to regain it.
+CustomMonsterKrakenTentacle0.Attack_heavy_5,Your missed swing slams into the ground, sending a shock up your arms. You struggle to keep a good grip on your weapon (; 1). If you pass, you grit your teeth and swing again, this time scoring a hit; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, the shock is too much and you lose hold of the weapon; drop your weapon.
+CustomMonsterKrakenTentacle0.Attack_heavy_6,You heave your weapon up and let it fall, allowing its weight to do most of the work (; 2). If you pass, you connect with a crushing blow; the tentacle suffers damage equal to the weapon's damage. If you fail, your weapon leaves a significant hole in the deck.
+CustomMonsterKrakenTentacle0.Attack_bladed_2,You throw the full force of your weight behind a vicious stab (; 2). If you pass, your blade punches deep into the tentacles flesh; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, you fall to the floor next to it and suffer face down damage equal to your test results.
+CustomMonsterKrakenTentacle0.Attack_bladed_3,You cry out in fury and slash at the tentacle, your eyes and blade gleaming (; 2). If you pass, your frenzied attack draws blood; the tentacle suffers damage equal to the weapon's damage plus your test result. If you fail, your unfocused strikes miss the mark.
+CustomMonsterKrakenTentacle0.Attack_bladed_4,You slash at the tentacle, but it bats the weapon out of your hand. The blade flips end-over-end through the air (; 2). If you pass, you manage to snatch it out of the air and bring it down hard; the thing suffers damage equal to your test result plus 1. If you fail, the blade lands next to you with a clatter; drop your weapon.
+CustomMonsterKrakenTentacle0.Attack_bladed_5,You stab at the tentacle, but your blade sticks and does not penetrate. You slam the pommel of the weapon with your other hand, hoping to drive the blade in (; 2). If you pass, the blade lurches inward; the monster suffers damage equal to your test result plus 1. If you fail, the tentacles slimy skin diverts the strike.
+CustomMonsterKrakenTentacle0.Attack_bladed_6,You brandish your weapon, dodge into range, and slash at the horrible limb (; 2). If you pass, your blade carves a deep gash in the tentacle's side and the sight of the wound proves to you that the creature can be defeated; the tentacle suffers damage equal to the weapon's damage, then become Focused. If you fail, your efforts come to naught and the tentacle remains unharmed.
+CustomMonsterKrakenTentacle0.Attack_firearm_3,In one swift motion, you raise your weapon and fire. Unwilling to waste a moment, you let instinct guide your aim (; 2). If you pass, your trust in your abilities pays off and the tentacle recoils at the shot's impact; the tentacle suffers damage equal to the weapon's damage. If you fail, your impulse to fire takes over long before the weapon is properly trained and your shots strike the ground.
+CustomMonsterKrakenTentacle0.Attack_firearm_4,In your haste to draw your weapon, you fumble it and it clatters to the ground. You scramble to retrieve it in time (; 2). If you pass, you dive for the firearm, roll onto your back and open fire from your position on the ground; the tentacle suffers damage equal to the weapon's damage. If you fail, you grope desperately for the weapon and eventually reclaim it.
+CustomMonsterKrakenTentacle0.Attack_firearm_5,Your body and mind grow numb as the reality of the situation sinks in. You level the firearm at the tentacle and pull the trigger (; 2). If you pass, the loud bark of the weapon jolts you back to reality; the tentacle suffers damage equal to the weapon's damage, then flip 1 Horror facedown. If you fail, the weapon's report sounds muted, as if you were underwater and everything feels unreal; suffer 1 facedown Horror.
+CustomMonsterKrakenTentacle0.Attack_firearm_6,Sighting down your weapon, you steel yourself and wait for the right moment to fire (; 2). If you pass, you surge with confidence when the moment comes and open fire; the tentacle suffers damage equal to the weapon's damage. If you fail, you focus so hard on finding your moment that, when you finally pull the trigger, the recoil catches you off-guard and you fumble your weapon; drop your weapon.
+CustomMonsterKrakenTentacle0.Attack_firearm_7,With the tentacle squarely in your sights, you open fire (; 2). If you pass, lead punches violently into the tentacles side; the flailing limb suffers damage equal to the weapon's damage plus your test result. If you fail, you miss wildly despite your careful aim, as if the creature was not where it seemed to be; suffer 1 facedown Horror.
+CustomMonsterKrakenTentacle1.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle1.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle1.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle1.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle1.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle1.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle1.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle1.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle1.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle1.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle1.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle1.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle1.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle1.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle1.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle1.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle1.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle1.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle1.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle1.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle1.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle1.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle1.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle1.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle1.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle1.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle1.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle1.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle1.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle2.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle2.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle2.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle2.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle2.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle2.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle2.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle2.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle2.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle2.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle2.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle2.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle2.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle2.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle2.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle2.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle2.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle2.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle2.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle2.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle2.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle2.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle2.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle2.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle2.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle2.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle2.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle2.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle2.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle3.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle3.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle3.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle3.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle3.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle3.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle3.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle3.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle3.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle3.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle3.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle3.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle3.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle3.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle3.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle3.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle3.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle3.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle3.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle3.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle3.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle3.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle3.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle3.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle3.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle3.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle3.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle3.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle3.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle4.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle4.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle4.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle4.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle4.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle4.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle4.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle4.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle4.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle4.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle4.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle4.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle4.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle4.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle4.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle4.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle4.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle4.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle4.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle4.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle4.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle4.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle4.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle4.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle4.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle4.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle4.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle4.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle4.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle5.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle5.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle5.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle5.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle5.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle5.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle5.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle5.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle5.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle5.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle5.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle5.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle5.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle5.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle5.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle5.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle5.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle5.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle5.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle5.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle5.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle5.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle5.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle5.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle5.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle5.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle5.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle5.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle5.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle6.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle6.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle6.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle6.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle6.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle6.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle6.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle6.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle6.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle6.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle6.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle6.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle6.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle6.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle6.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle6.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle6.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle6.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle6.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle6.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle6.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle6.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle6.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle6.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle6.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle6.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle6.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle6.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle6.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle7.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle7.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle7.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle7.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle7.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle7.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle7.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle7.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle7.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle7.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle7.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle7.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle7.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle7.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle7.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle7.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle7.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle7.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle7.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle7.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle7.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle7.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle7.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle7.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle7.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle7.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle7.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle7.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle7.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle8.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle8.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle8.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle8.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle8.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle8.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle8.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle8.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle8.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle8.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle8.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle8.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle8.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle8.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle8.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle8.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle8.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle8.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle8.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle8.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle8.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle8.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle8.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle8.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle8.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle8.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle8.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle8.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle8.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+CustomMonsterKrakenTentacle9.Attack_firearm_1,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_1}
+CustomMonsterKrakenTentacle9.Attack_firearm_2,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_2}
+CustomMonsterKrakenTentacle9.Attack_firearm_3,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_3}
+CustomMonsterKrakenTentacle9.Attack_firearm_4,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_4}
+CustomMonsterKrakenTentacle9.Attack_firearm_5,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_5}
+CustomMonsterKrakenTentacle9.Attack_firearm_6,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_6}
+CustomMonsterKrakenTentacle9.Attack_firearm_7,{qst:CustomMonsterKrakenTentacle0.Attack_firearm_7}
+CustomMonsterKrakenTentacle9.Attack_bladed_1,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_1}
+CustomMonsterKrakenTentacle9.Attack_bladed_2,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_2}
+CustomMonsterKrakenTentacle9.Attack_bladed_3,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_3}
+CustomMonsterKrakenTentacle9.Attack_bladed_4,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_4}
+CustomMonsterKrakenTentacle9.Attack_bladed_5,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_5}
+CustomMonsterKrakenTentacle9.Attack_bladed_6,{qst:CustomMonsterKrakenTentacle0.Attack_bladed_6}
+CustomMonsterKrakenTentacle9.Attack_heavy_1,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_1}
+CustomMonsterKrakenTentacle9.Attack_heavy_2,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_2}
+CustomMonsterKrakenTentacle9.Attack_heavy_3,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_3}
+CustomMonsterKrakenTentacle9.Attack_heavy_4,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_4}
+CustomMonsterKrakenTentacle9.Attack_heavy_5,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_5}
+CustomMonsterKrakenTentacle9.Attack_heavy_6,{qst:CustomMonsterKrakenTentacle0.Attack_heavy_6}
+CustomMonsterKrakenTentacle9.Attack_spell_1,{qst:CustomMonsterKrakenTentacle0.Attack_spell_1}
+CustomMonsterKrakenTentacle9.Attack_spell_2,{qst:CustomMonsterKrakenTentacle0.Attack_spell_2}
+CustomMonsterKrakenTentacle9.Attack_spell_3,{qst:CustomMonsterKrakenTentacle0.Attack_spell_3}
+CustomMonsterKrakenTentacle9.Attack_spell_4,{qst:CustomMonsterKrakenTentacle0.Attack_spell_4}
+CustomMonsterKrakenTentacle9.Attack_spell_5,{qst:CustomMonsterKrakenTentacle0.Attack_spell_5}
+CustomMonsterKrakenTentacle9.Attack_spell_6,{qst:CustomMonsterKrakenTentacle0.Attack_spell_6}
+CustomMonsterKrakenTentacle9.Attack_unarmed_1,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_1}
+CustomMonsterKrakenTentacle9.Attack_unarmed_2,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_2}
+CustomMonsterKrakenTentacle9.Attack_unarmed_3,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_3}
+CustomMonsterKrakenTentacle9.Attack_unarmed_4,{qst:CustomMonsterKrakenTentacle0.Attack_unarmed_4}
+EventMove5.button1,{qst:Continue}
+EventMove6.button1,{qst:Continue}
+TokenH1Instructions.button1,{qst:Continue}
+EventTentacleNr1.text,The lone tentacle looms menacingly. Towering over the boat as a sign that it is there. Things are not well. It will get worse.
+EventSuddenlyBoat.text,Place the {c:TileH1Boat} tile, Sight and Search tokens as indicated.
+EventTentacleNr0.text,The waters surface is calm. You know this won't last. Best meake the most of it.
+EventTentacleNr7.text,The boat is creaking like mad. You're frankly surprised it's still afloat. Very soon it probably won't be.
+EventMove4.button1,{qst:Continue}
+EventBRPlaceGun.button1,{qst:Continue}
+EventFLPlaceGun.button1,{qst:Continue}
+EventFRPlaceGun.button1,{qst:Continue}
+EventSuddenlyBoat.button1,{qst:Continue}
+EventTentacleNr1.button1,{qst:Continue}
+EventTentacleNr2.text,The two tentacles seem to pull in different directions.
+EventTentacleNr0.button1,{qst:Continue}
+EventTentacleNr2.button1,{qst:Continue}
+EventTentacleNr3.button1,{qst:Continue}
+EventTentacleNr4.button1,{qst:Continue}
+EventTentacleNr5.button1,{qst:Continue}
+EventTentacleNr6.button1,{qst:Continue}
+EventTentacleNr7.button1,{qst:Continue}
+CustomMonsterKrakenTentacle1.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle1.monstername,tentacles
+CustomMonsterKrakenTentacle2.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle2.monstername,tentacles
+CustomMonsterKrakenTentacle3.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle3.monstername,tentacles
+CustomMonsterKrakenTentacle4.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle4.monstername,tentacles
+CustomMonsterKrakenTentacle5.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle5.monstername,tentacles
+CustomMonsterKrakenTentacle6.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle6.monstername,tentacles
+CustomMonsterKrakenTentacle7.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle7.monstername,tentacles
+CustomMonsterKrakenTentacle8.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle8.monstername,tentacles
+CustomMonsterKrakenTentacle9.info,{qst:CustomMonsterKrakenTentacle0.info}
+CustomMonsterKrakenTentacle9.monstername,tentacles
+TokenBRTentacle.button1,Continue
+TokenSETentacle.button1,Continue
+TokenBRTentacleGun.text,There's a tentacle wrapped around the gun. It seems obvious that you'll have to do some pruning to make any headway in defeating the beast.
+TokenBRTentacleGun.button1,Continue
+TokenBLTentacle.button1,Continue
+TokenBLTentacleGun.text,There's a tentacle wrapped around the gun. It seems obvious that you'll have to do some pruning to make any headway in defeating the beast.
+TokenBLTentacleGun.button1,Continue
+TokenSSTentacle.button1,Continue
+TokenFLTentacle.button1,Continue
+TokenFLTentacleGun.text,There's a tentacle wrapped around the gun. It seems obvious that you'll have to do some pruning to make any headway in defeating the beast.
+TokenFLTentacleGun.button1,Continue
+TokenSWTentacle.button1,Continue
+TokenFRTentacle.button1,Continue
+TokenFRTentacleGun.text,There's a tentacle wrapped around the gun. It seems obvious that you'll have to do some pruning to make any headway in defeating the beast.
+TokenFRTentacleGun.button1,Continue
+Event0.text,this is a tentacle deep into  the ponrrings of the meani g of limbs
+Event0.button1,Continue
+EventClue0.button1,Continue
+EventClue0.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue01.button1,Continue
+EventClue01.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue02.button1,Continue
+EventClue02.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue03.button1,Continue
+EventClue03.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue04.button1,Continue
+EventClue04.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue05.button1,Continue
+EventClue05.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue06.button1,Continue
+EventClue06.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue07.button1,Continue
+EventClue07.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue08.button1,Continue
+EventClue08.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue09.button1,Continue
+EventClue09.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue10.button1,Continue
+EventClue10.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventClue11.button1,Continue
+EventClue11.text,Ghosts cannot be permanently 'killed' by mundane weapons or attack spells. They will however lose corporeal form when killed for a longer period.
+EventH1C1.button1,{qst:Buy.button1}
+EventH1C1.text, The picture is very fuzzy and mostly shows huge splashes of water and wooden pieces in the air. But you think you can see a tentacle in the midst of the chaos.
+EventH1C2.button1,{qst:Buy.button1}
+EventH1C2.text, The picture is very fuzzy and mostly shows huge splashes of water and wooden pieces in the air. But you think you can see a tentacle in the midst of the chaos.
+EventH1C3.button1,{qst:Buy.button1}
+EventH1C3.text, The picture is very fuzzy and mostly shows huge splashes of water and wooden pieces in the air. But you think you can see a tentacle in the midst of the chaos.
+EventH1C4.button1,{qst:Buy.button1}
+EventH1C4.text, The picture is very fuzzy and mostly shows huge splashes of water and wooden pieces in the air. But you think you can see a tentacle in the midst of the chaos.
+EventH1C5.button1,{qst:Buy.button1}
+EventH1C5.text, The picture is very fuzzy and mostly shows huge splashes of water and wooden pieces in the air. But you think you can see a tentacle in the midst of the chaos.
+EventEval1.button1,Button1
+EventEndSuccess.text,With one final shot, the beast goes limp and start sliding off the ship. {rnd:hero} dives in and secures the trophy eye that the client asked for as proof.\n\nThe boatride back was quiet. Almost gloomy. You feel the weight of your deed settle on your shoulders. Though you feel secure in the knowledge that life will be improved in the area now that boats can travel freely again.\n\nAs you're driving back to the shop {rnd:hero} looks into the eye and asks out loud what what the next mission might be.
+EventEvalEnd.text, The shop looks the same as always. You park slowly. Thinking about your next mission. You look down at your watch and groan. Of course it's almost closing time again.
+EventEvalEnd.button1,{qst:Continue}

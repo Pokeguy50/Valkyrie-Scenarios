@@ -1,0 +1,11 @@
+.,English
+EventH1C1.text, The picture is very fuzzy and mostly shows huge splashes of water and wooden pieces in the air. But you think you can see a tentacle in the midst of the chaos.
+EventH1C2.text, The depths of the oceans are largely undiscovered and new things are always discovered. Or in some cases old things long thought dead are rediscovered.
+EventH1C3.text,Sweetwater octopi can grow for as long as they live.
+EventH1C4.text,octopi
+EventH1C5.text,octopi
+EventH1C1.button1,Continue
+EventH1C2.button1,Continue
+EventH1C3.button1,Continue
+EventH1C4.button1,Continue
+EventH1C5.button1,Continue
