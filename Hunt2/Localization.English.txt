@@ -1,0 +1,204 @@
+.,English
+quest.name,Hunt02A Tracking
+quest.description,Scenario 4...
+Token21.button1,{action} Search for tracks
+EventDifficultyAdjuster.button1,Button1
+EventDifficultyAddTrack000.button1,Button1
+EventTrackingFailure.text,You can't find anything that resembles the tracks you're looking for.\nIf you had it, you lost it and maybe that is the way it is. \nMaybe you never had it at all.
+EventTrackingFailure.button1,Continue
+EventTracking0B.button1,Button1
+EventTracking0A.button1,Button1
+Eventpath001.button1,Button1
+EventS1.button2,Button2
+Tokens_Yard2_to_TownSquare.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Yard2_to_TownSquare.button1,Reveal
+Tokens_Yard2_to_RootCellar.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Yard2_to_RootCellar.button1,Reveal
+Tokens_Yard2_to_ParkPond.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Yard2_to_ParkPond.button1,Reveal
+Tokens_Yard1_to_Street2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Yard1_to_Street2.button1,Reveal
+Tokens_Yard1_to_ParkPond.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Yard1_to_ParkPond.button1,Reveal
+Tokens_Yard1_to_Conservatory.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Yard1_to_Conservatory.button1,Reveal
+Tokens_TownSquare_to_Yard2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_TownSquare_to_Yard2.button1,Reveal
+Tokens_TownSquare_to_StreetCorner2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_TownSquare_to_StreetCorner2.button1,Reveal
+Tokens_TownSquare_to_StreetCorner1.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_TownSquare_to_StreetCorner1.button1,Reveal
+Tokens_TownSquare_to_ParkPond.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_TownSquare_to_ParkPond.button1,Reveal
+Tokens_ToolShed_to_RootCellar.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ToolShed_to_RootCellar.button1,Reveal
+Tokens_ToolShed_to_RentalDock.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ToolShed_to_RentalDock.button1,Reveal
+Tokens_ToolShed_to_Pier.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ToolShed_to_Pier.button1,Reveal
+Tokens_ToolShed_to_ParkPond.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ToolShed_to_ParkPond.button1,Reveal
+Tokens_ToolShed_to_Conservatory.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ToolShed_to_Conservatory.button1,Reveal
+Tokens_StreetCorner2_to_TownSquare.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_StreetCorner2_to_TownSquare.button1,Reveal
+Tokens_StreetCorner2_to_Street2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_StreetCorner2_to_Street2.button1,Reveal
+Tokens_StreetCorner2_to_ParkPond.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_StreetCorner2_to_ParkPond.button1,Reveal
+Tokens_StreetCorner1_to_TownSquare.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_StreetCorner1_to_TownSquare.button1,Reveal
+Tokens_Street2_to_Yard1.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Street2_to_Yard1.button1,Reveal
+Tokens_Street2_to_StreetCorner2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Street2_to_StreetCorner2.button1,Reveal
+Tokens_RootCellar_to_Yard2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RootCellar_to_Yard2.button1,Reveal
+Tokens_RootCellar_to_ToolShed.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RootCellar_to_ToolShed.button1,Reveal
+Tokens_RootCellar_to_RentalDock.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RootCellar_to_RentalDock.button1,Reveal
+Tokens_RentalDock_to_ToolShed.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RentalDock_to_ToolShed.button1,Reveal
+Tokens_RentalDock_to_RootCellar.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RentalDock_to_RootCellar.button1,Reveal
+Tokens_RentalDock_to_Pier.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RentalDock_to_Pier.button1,Reveal
+Tokens_RentalDock_to_Dock2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_RentalDock_to_Dock2.button1,Reveal
+Tokens_Pier_to_ToolShed.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Pier_to_ToolShed.button1,Reveal
+Tokens_Pier_to_RentalDock.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Pier_to_RentalDock.button1,Reveal
+Tokens_Pier_to_Dock1.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Pier_to_Dock1.button1,Reveal
+Tokens_Pier_to_Conservatory.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Pier_to_Conservatory.button1,Reveal
+Tokens_ParkPond_to_Yard2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ParkPond_to_Yard2.button1,Reveal
+Tokens_ParkPond_to_Yard1.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ParkPond_to_Yard1.button1,Reveal
+Tokens_ParkPond_to_TownSquare.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ParkPond_to_TownSquare.button1,Reveal
+Tokens_ParkPond_to_ToolShed.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ParkPond_to_ToolShed.button1,Reveal
+Tokens_ParkPond_to_StreetCorner2.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_ParkPond_to_StreetCorner2.button1,Reveal
+Tokens_Dock2_to_RentalDock.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Dock2_to_RentalDock.button1,Reveal
+Tokens_Dock1_to_Pier.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Dock1_to_Pier.button1,Reveal
+Tokens_Dock1_to_Conservatory.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Dock1_to_Conservatory.button1,Reveal
+Tokens_Conservatory_to_Yard1.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Conservatory_to_Yard1.button1,Reveal
+Tokens_Conservatory_to_ToolShed.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Conservatory_to_ToolShed.button1,Reveal
+Tokens_Conservatory_to_Pier.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+Tokens_Conservatory_to_Pier.button1,Reveal
+Tokens_Conservatory_to_Dock1.text,There's more in this direction. An investigator in the {c:Yard2} may reveal the adjacent area.
+EventEnterTile.text, you may 
+EventEnterTile.button1,{qst:Continue}
+EventToolShed.text,Place the {c:ToolShed} as indicated and discard any Sight or Explore tokens leading to the  {c:ToolShed}.
+EventToolShed.button,{qst:Continue}
+Event_place_s_ToolShed_to_RootCellar.text,Place a Sight token as indicated.
+Events_ToolShed_to_RootCellar.button,{qst:Continue}
+Event_place_s_ToolShed_to_RentalDock.text,Place a Sight token as indicated.
+Events_ToolShed_to_RentalDock.button,{qst:Continue}
+Event_place_s_ToolShed_to_Pier.text,Place a Sight token as indicated.
+Events_ToolShed_to_Pier.button,{qst:Continue}
+Event_place_s_ToolShed_to_Conservatory.text,Place a Sight token as indicated.
+Events_ToolShed_to_Conservatory.button,{qst:Continue}
+EventConservatory.text,Place the {c:Conservatory} as indicated.
+EventConservatory.button,{qst:Continue}
+Event_place_s_Conservatory_to_Yard1.text,Place a Sight token as indicated.
+Events_Conservatory_to_Yard1.button,{qst:Continue}
+Event_place_s_Conservatory_to_ToolShed.text,Place a Sight token as indicated.
+Events_Conservatory_to_ToolShed.button,{qst:Continue}
+Event_place_s_Conservatory_to_Pier.text,Place a Sight token as indicated.
+Events_Conservatory_to_Pier.button,{qst:Continue}
+EventYard1.text,Place the {c:Yard1} as indicated.
+EventYard1.button,{qst:Continue}
+Event_place_s_Yard1_to_Street2.text,Place a Sight token as indicated.
+Events_Yard1_to_Street2.button,{qst:Continue}
+Event_place_s_Yard1_to_ParkPond.text,Place a Sight token as indicated.
+Events_Yard1_to_ParkPond.button,{qst:Continue}
+Event_place_s_Yard1_to_Conservatory.text,Place a Sight token as indicated.
+Events_Yard1_to_Conservatory.button,{qst:Continue}
+EventParkPond.text,Place the {c:ParkPond} as indicated.
+EventParkPond.button,{qst:Continue}
+Event_place_s_ParkPond_to_Yard2.text,Place a Sight token as indicated.
+Events_ParkPond_to_Yard2.button,{qst:Continue}
+Event_place_s_ParkPond_to_Yard1.text,Place a Sight token as indicated.
+Events_ParkPond_to_Yard1.button,{qst:Continue}
+Event_place_s_ParkPond_to_TownSquare.text,Place a Sight token as indicated.
+Events_ParkPond_to_TownSquare.button,{qst:Continue}
+Event_place_s_ParkPond_to_StreetCorner2.text,Place a Sight token as indicated.
+Events_ParkPond_to_StreetCorner2.button,{qst:Continue}
+EventYard2.text,Place the {c:Yard2} as indicated.
+EventYard2.button,{qst:Continue}
+Event_place_s_Yard2_to_TownSquare.text,Place a Sight token as indicated.
+Events_Yard2_to_TownSquare.button,{qst:Continue}
+Event_place_s_Yard2_to_RootCellar.text,Place a Sight token as indicated.
+Events_Yard2_to_RootCellar.button,{qst:Continue}
+Event_place_s_Yard2_to_ParkPond.text,Place a Sight token as indicated.
+Events_Yard2_to_ParkPond.button,{qst:Continue}
+EventRootCellar.text,Place the {c:RootCellar} as indicated.
+EventRootCellar.button,{qst:Continue}
+Event_place_s_RootCellar_to_Yard2.text,Place a Sight token as indicated.
+Events_RootCellar_to_Yard2.button,{qst:Continue}
+Event_place_s_RootCellar_to_ToolShed.text,Place a Sight token as indicated.
+Events_RootCellar_to_ToolShed.button,{qst:Continue}
+Event_place_s_RootCellar_to_RentalDock.text,Place a Sight token as indicated.
+Events_RootCellar_to_RentalDock.button,{qst:Continue}
+EventPier.text,Place the {c:Pier} as indicated.
+EventPier.button,{qst:Continue}
+Event_place_s_Pier_to_ToolShed.text,Place a Sight token as indicated.
+Events_Pier_to_ToolShed.button,{qst:Continue}
+Event_place_s_Pier_to_RentalDock.text,Place a Sight token as indicated.
+Events_Pier_to_RentalDock.button,{qst:Continue}
+Event_place_s_Pier_to_Dock1.text,Place a Sight token as indicated.
+Events_Pier_to_Dock1.button,{qst:Continue}
+EventDock1.text,Place the {c:Dock1} as indicated.
+EventDock1.button,{qst:Continue}
+Event_place_s_Dock1_to_Pier.text,Place a Sight token as indicated.
+Events_Dock1_to_Pier.button,{qst:Continue}
+Event_place_s_Dock1_to_Conservatory.text,Place a Sight token as indicated.
+Events_Dock1_to_Conservatory.button,{qst:Continue}
+EventStreetCorner2.text,Place the {c:StreetCorner2} as indicated.
+EventStreetCorner2.button,{qst:Continue}
+Event_place_s_StreetCorner2_to_TownSquare.text,Place a Sight token as indicated.
+Events_StreetCorner2_to_TownSquare.button,{qst:Continue}
+Event_place_s_StreetCorner2_to_Street2.text,Place a Sight token as indicated.
+Events_StreetCorner2_to_Street2.button,{qst:Continue}
+Event_place_s_StreetCorner2_to_ParkPond.text,Place a Sight token as indicated.
+Events_StreetCorner2_to_ParkPond.button,{qst:Continue}
+EventTownSquare.text,Place the {c:TownSquare} as indicated.
+EventTownSquare.button,{qst:Continue}
+Event_place_s_TownSquare_to_Yard2.text,Place a Sight token as indicated.
+Events_TownSquare_to_Yard2.button,{qst:Continue}
+Event_place_s_TownSquare_to_StreetCorner2.text,Place a Sight token as indicated.
+Events_TownSquare_to_StreetCorner2.button,{qst:Continue}
+Event_place_s_TownSquare_to_StreetCorner1.text,Place a Sight token as indicated.
+Events_TownSquare_to_StreetCorner1.button,{qst:Continue}
+EventStreetCorner1.text,Place the {c:StreetCorner1} as indicated.
+EventStreetCorner1.button,{qst:Continue}
+Event_place_s_StreetCorner1_to_TownSquare.text,Place a Sight token as indicated.
+Events_StreetCorner1_to_TownSquare.button,{qst:Continue}
+EventDock2.text,Place the {c:Dock2} as indicated.
+EventDock2.button,{qst:Continue}
+Event_place_s_Dock2_to_RentalDock.text,Place a Sight token as indicated.
+Events_Dock2_to_RentalDock.button,{qst:Continue}
+EventRentalDock.text,Place the {c:RentalDock} as indicated.
+EventRentalDock.button,{qst:Continue}
+Event_place_s_RentalDock_to_ToolShed.text,Place a Sight token as indicated.
+Events_RentalDock_to_ToolShed.button,{qst:Continue}
+Event_place_s_RentalDock_to_RootCellar.text,Place a Sight token as indicated.
+Events_RentalDock_to_RootCellar.button,{qst:Continue}
+Event_place_s_RentalDock_to_Pier.text,Place a Sight token as indicated.
+Events_RentalDock_to_Pier.button,{qst:Continue}
+EventStreet2.text,Place the {c:Street2} as indicated.
+EventStreet2.button,{qst:Continue}
+Event_place_s_Street2_to_Yard1.text,Place a Sight token as indicated.
+Events_Street2_to_Yard1.button,{qst:Continue}
+Event_place_s_Street2_to_StreetCorner2.text,Place a Sight token as indicated.
