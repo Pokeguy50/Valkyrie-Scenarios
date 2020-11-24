@@ -1,0 +1,143 @@
+.,English
+quest.name,Hunt3
+quest.description,a horde of monsters are attacking. find the 2-5 (player nr) Mcguffins and bring them to the ritual circle that started it all to end it.
+Tokens_Street2_to_FleaMarket.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Street2_to_FleaMarket.button1,Reveal
+Tokens_Street2_to_Beach.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Street2_to_Beach.button1,Reveal
+Tokens_Pier_to_Dock2.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Pier_to_Dock2.button1,Reveal
+Tokens_Pier_to_Dock1.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Pier_to_Dock1.button1,Reveal
+Tokens_FleaMarket_to_Street2.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_FleaMarket_to_Street2.button1,Reveal
+Tokens_FleaMarket_to_Alley2.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_FleaMarket_to_Alley2.button1,Reveal
+Tokens_Dock2_to_Pier.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Dock2_to_Pier.button1,Reveal
+Tokens_Dock1_to_Pier.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Dock1_to_Pier.button1,Reveal
+Tokens_Dock1_to_Beach.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Dock1_to_Beach.button1,Reveal
+Tokens_Beach_to_Street2.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Beach_to_Street2.button1,Reveal
+Tokens_Beach_to_Dock1.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Beach_to_Dock1.button1,Reveal
+Tokens_Alley2_to_FleaMarket.text,There's more in this direction. An investigator in the {c:Pier} may reveal the adjacent area.
+Tokens_Alley2_to_FleaMarket.button1,Reveal
+Tokene_Warehouse_to_Street2_4.text,There's a door here, behind which could be anything. It's probably a kitchen or a library. But as yet it has the potential to be anything you can imagine. Do you want to go through?
+Tokene_Warehouse_to_Street2_4.button1,Reveal
+Tokene_Warehouse_to_Pier_8.text,The door is wooden and the handle is bronze.
+Tokene_Warehouse_to_Pier_8.button1,Reveal
+Tokene_Warehouse_to_FleaMarket_2.text,This is a door. To no surprise can be opened. On the other side is an area that is NOT this room.
+Tokene_Warehouse_to_FleaMarket_2.button1,Reveal
+Tokene_Warehouse_to_DiningRoom_1.text,This a door. As it is a door it is an obstacle that obstructs your path. What an affront to your sensibilities. Your path must be unrestrained.
+Tokene_Warehouse_to_DiningRoom_1.button1,Reveal
+Tokene_Study_to_Library_4.text,The door is wooden and the handle is bronze.
+Tokene_Study_to_Library_4.button1,Reveal
+Tokene_Study_to_Alley2_6.text,There's a door in front of you. Do you give in to your hearts yearning for exploration or do you stay your hand to remain ignorant of that which is on the other side?
+Tokene_Study_to_Alley2_6.button1,Reveal
+Tokene_Street2_to_Warehouse_1.text,This a door. As it is a door it is an obstacle that obstructs your path. What an affront to your sensibilities. Your path must be unrestrained.
+Tokene_Street2_to_Warehouse_1.button1,Reveal
+Tokene_Street2_to_RootCellar_4.text,There's a door here, behind which could be anything. It's probably a kitchen or a library. But as yet it has the potential to be anything you can imagine. Do you want to go through?
+Tokene_Street2_to_RootCellar_4.button1,Reveal
+Tokene_RootCellar_to_Street2_1.text,This a door. As it is a door it is an obstacle that obstructs your path. What an affront to your sensibilities. Your path must be unrestrained.
+Tokene_RootCellar_to_Street2_1.button1,Reveal
+Tokene_RootCellar_to_BellTower_8.text,This a door. As it is a door it is an obstacle that obstructs your path. What an affront to your sensibilities. Your path must be unrestrained.
+Tokene_RootCellar_to_BellTower_8.button1,Reveal
+Tokene_Pier_to_Warehouse_5.text,This is a door. To no surprise can be opened. On the other side is an area that is NOT this room.
+Tokene_Pier_to_Warehouse_5.button1,Reveal
+Tokene_Library_to_Study_5.text,This door leads somewhere...
+Tokene_Library_to_Study_5.button1,Reveal
+Tokene_FleaMarket_to_Warehouse_6.text,This door is a simple door. It's got no motives it just wants to swing.
+Tokene_FleaMarket_to_Warehouse_6.button1,Reveal
+Tokene_FleaMarket_to_BilliardsRoom_3.text,This an average door of average height and made from average wood. On average it is meant to swing open if averages count anyway.
+Tokene_FleaMarket_to_BilliardsRoom_3.button1,Reveal
+Tokene_Dock2_to_DiningRoom_4.text,The door is ornate. Made with dark oak and Inlaid with silver snakes.
+Tokene_Dock2_to_DiningRoom_4.button1,Reveal
+Tokene_DiningRoom_to_Dock2_6.text,The object is non-ornate block made from an organic hard substance with lines running through it in disorderly intervals. There's a round protubance aimed towards you that clearly wants you to grip it and squeeze in a turning motion.
+Tokene_DiningRoom_to_Dock2_6.button1,Reveal
+Tokene_DiningRoom_to_Bathroom_8.text,This door in front of you hides something. It could be terrible. It could be worse than your worst nightmare. A non-european carpet.
+Tokene_DiningRoom_to_Bathroom_8.button1,Reveal
+Tokene_BilliardsRoom_to_FleaMarket_3.text,The door is ornate. Made with dark oak and Inlaid with silver snakes.
+Tokene_BilliardsRoom_to_FleaMarket_3.button1,Reveal
+Tokene_BellTower_to_RootCellar_1.text,This an average door of average height and made from average wood. On average it is meant to swing open if averages count anyway.
+Tokene_BellTower_to_RootCellar_1.button1,Reveal
+Tokene_Bathroom_to_DiningRoom_1.text,There's a door here, behind which could be anything. It's probably a kitchen or a library. But as yet it has the potential to be anything you can imagine. Do you want to go through?
+Tokene_Bathroom_to_DiningRoom_1.button1,Reveal
+Tokene_Bathroom_to_Alley2_6.text,This is a door. To no surprise can be opened. On the other side is an area that is NOT this room.
+Tokene_Bathroom_to_Alley2_6.button1,Reveal
+Tokene_Alley2_to_Study_1.text,The door is wooden and the handle is bronze.
+Tokene_Alley2_to_Study_1.button1,Reveal
+Tokene_Alley2_to_Office_5.text,The door is ornate. Made with dark oak and Inlaid with silver snakes.
+Tokene_Alley2_to_Office_5.button1,Reveal
+Tokene_Alley2_to_Library_2.text,The door is wooden and the handle is bronze.
+Tokene_Alley2_to_Library_2.button1,Reveal
+Tokene_Alley2_to_Bathroom_4.text,There's a door here, behind which could be anything. It's probably a kitchen or a library. But as yet it has the potential to be anything you can imagine. Do you want to go through?
+EventEnterTile.text, you may 
+EventEnterTile.button1,{qst:Continue}
+EventWarehouse.text,Place the {c:Warehouse} as indicated and discard any Sight or Explore tokens leading to the  {c:Warehouse}.
+EventWarehouse.button,{qst:Continue}
+Event_place_e_Warehouse_to_Street2_4.text,Place an Explore token as indicated.
+Evente_Warehouse_to_Street2_4.button,{qst:Continue}
+EventPier.text,Place the {c:Pier} as indicated.
+EventPier.button,{qst:Continue}
+Event_place_s_Pier_to_Dock2.text,Place a Sight token as indicated.
+Events_Pier_to_Dock2.button,{qst:Continue}
+EventBeach.text,Place the {c:Beach} as indicated.
+EventBeach.button,{qst:Continue}
+Event_place_s_Beach_to_Street2.text,Place a Sight token as indicated.
+Events_Beach_to_Street2.button,{qst:Continue}
+EventDock1.text,Place the {c:Dock1} as indicated.
+EventDock1.button,{qst:Continue}
+Event_place_s_Dock1_to_Pier.text,Place a Sight token as indicated.
+Events_Dock1_to_Pier.button,{qst:Continue}
+EventDock2.text,Place the {c:Dock2} as indicated.
+EventDock2.button,{qst:Continue}
+Event_place_s_Dock2_to_Pier.text,Place a Sight token as indicated.
+Events_Dock2_to_Pier.button,{qst:Continue}
+EventDiningRoom.text,Place the {c:DiningRoom} as indicated.
+EventDiningRoom.button,{qst:Continue}
+Event_place_e_DiningRoom_to_Dock2_6.text,Place an Explore token as indicated.
+Evente_DiningRoom_to_Dock2_6.button,{qst:Continue}
+EventFleaMarket.text,Place the {c:FleaMarket} as indicated.
+EventFleaMarket.button,{qst:Continue}
+Event_place_s_FleaMarket_to_Street2.text,Place a Sight token as indicated.
+Events_FleaMarket_to_Street2.button,{qst:Continue}
+EventConservatory.text,Place the {c:Conservatory} as indicated.
+EventConservatory.button,{qst:Continue}
+EventLibrary.text,Place the {c:Library} as indicated.
+EventLibrary.button,{qst:Continue}
+Event_place_e_Library_to_Study_5.text,Place an Explore token as indicated.
+Evente_Library_to_Study_5.button,{qst:Continue}
+EventBellTower.text,Place the {c:BellTower} as indicated.
+EventBellTower.button,{qst:Continue}
+Event_place_e_BellTower_to_RootCellar_1.text,Place an Explore token as indicated.
+Evente_BellTower_to_RootCellar_1.button,{qst:Continue}
+EventBilliardsRoom.text,Place the {c:BilliardsRoom} as indicated.
+EventBilliardsRoom.button,{qst:Continue}
+Event_place_e_BilliardsRoom_to_FleaMarket_3.text,Place an Explore token as indicated.
+Evente_BilliardsRoom_to_FleaMarket_3.button,{qst:Continue}
+EventOffice.text,Place the {c:Office} as indicated.
+EventOffice.button,{qst:Continue}
+Event_place_d_Office_to_Bathroom_2.text,Place a door as indicated.
+Eventd_Office_to_Bathroom_2.button,{qst:Continue}
+EventBathroom.text,Place the {c:Bathroom} as indicated.
+EventBathroom.button,{qst:Continue}
+Event_place_e_Bathroom_to_Office_4.text,Place an Explore token as indicated.
+Evente_Bathroom_to_Office_4.button,{qst:Continue}
+EventStreet2.text,Place the {c:Street2} as indicated.
+EventStreet2.button,{qst:Continue}
+Event_place_s_Street2_to_FleaMarket.text,Place a Sight token as indicated.
+Events_Street2_to_FleaMarket.button,{qst:Continue}
+EventStudy.text,Place the {c:Study} as indicated.
+EventStudy.button,{qst:Continue}
+Event_place_e_Study_to_Library_4.text,Place an Explore token as indicated.
+Evente_Study_to_Library_4.button,{qst:Continue}
+EventAlley2.text,Place the {c:Alley2} as indicated.
+EventAlley2.button,{qst:Continue}
+Event_place_s_Alley2_to_FleaMarket.text,Place a Sight token as indicated.
+Events_Alley2_to_FleaMarket.button,{qst:Continue}
+EventRootCellar.text,Place the {c:RootCellar} as indicated.
+EventRootCellar.button,{qst:Continue}
+Event_place_e_RootCellar_to_Street2_1.text,Place an Explore token as indicated.
