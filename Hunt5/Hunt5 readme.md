@@ -1,6 +1,11 @@
 Mirror mirror...
+Todo list
+-the blue woman speech
+-thr enemies appearing
+-the enemies
+-fire everywhere (an ending)
 
-Hunt 5 (if I truly need to know if something has happened, use boolean numbers  called achievements that players enter through a quota in the beginning)
+Hunt 5 (if I truly need to know if something has happened, use boolean numbers  called achievements that players enter as needed-ish)
 Notes seraphina is old aunt who first opened mirror world
 Ada Miller is woman trapped in mirror world
 Rell Imada is Adas mirror image (blue woman)
