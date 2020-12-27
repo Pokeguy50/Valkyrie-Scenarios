@@ -39,16 +39,6 @@ TokenMirrorBedrom2.button1,{action} Examine the mirror image
 TokenEBathroom.button1,{action} Explore
 EventBathroom1.text,The miror draws your attention.\nThere's something...\n...wrong in it.\nAdd a Search token as indicated.
 EventBathroom1.button1,Continue
-TokenEHallToStudy.text,The door has what looks to be glasspanes that's been taped over with painters tape.
-TokenEHallToStudy.button1,{action}Explore
-EventEStudy.text,Place the {c:TileStudy} as indicated and discard the Explore token leading to the {c:TileStudy}.
-EventEStudy.button1,Continue
-TokenSHall.text,The hall continues in this direction. Any investigator standing in the hallway corner may reveal the rest of the hallway.
-TokenSHall.button1,Reveal
-EventSHallToStairs.button1,Continue
-EventStairs.text,The hallway ends in stairs. Leading down to a door.\nPlace an Explore token as indicated.
-EventSHallToStairs.text,Place the {c:TileHallstairs} as indicated and discard the Sight token leading to the {c:TileHallstairs}.
-EventStairs.button1,Continue)
 EventStarter.text,Place the {c:TileYard1}
 EventStarter.button1,{qst:Continue}
 EventEnterTile.text,You may move 1 space onto the tile.
@@ -57,9 +47,10 @@ EventPlaceMrRed.text,Place the Red Man token as indicated.
 EventPlaceMrRed.button1,{qst:Continue}
 EventPlaceInvestigators.text,Place the Investigators token as indicated.
 EventPlaceInvestigators.button1,{qst:Continue}
-EventPlaceMirror.text,Place the Search token as indicated.
-EventPlaceMirror.button1,{qst:Continue}
-EventPlaceEBathroom.text,Place the Search token as indicated.
+EventPlace16.text,Place the Fire token as indicated.
+EventPlace16.button1,{qst:Continue}
+EventPlaceMirrorBedrom2.text,Place the Search token as indicated.
+Tokens_HallStairs_to_Bathroom.text,There's more in this direction. An investigator in the {c:TileHallStairs} may reveal the adjacent area.
 Tokens_HallStairs_to_Bathroom.text,There's more in this direction. An investigator in the {c:TileHallStairs} may reveal the adjacent area.
 Tokens_HallStairs_to_Bathroom.button1,Reveal
 Tokens_HallEnd_to_Bathroom.text,There's more in this direction. An investigator in the {c:TileHallEnd} may reveal the adjacent area.
@@ -68,20 +59,21 @@ Tokens_Bathroom_to_HallStairs.text,There's more in this direction. An investigat
 Tokens_Bathroom_to_HallStairs.button1,Reveal
 Tokens_Bathroom_to_HallEnd.text,There's more in this direction. An investigator in the {c:TileBathroom} may reveal the adjacent area.
 Tokens_Bathroom_to_HallEnd.button1,Reveal
-Tokene_Yard1_to_HallEnd_4.text,This door is made of teak. It has a bronze handle. It's a fine door. 
+Tokene_Yard1_to_HallEnd_4.text,There's a door here that you may open.
 Tokene_Yard1_to_HallEnd_4.button1,{action} Explore
 Tokene_HallStairs_to_Basement_6.text,There's a door here that you may open.
 Tokene_HallStairs_to_Basement_6.button1,{action} Explore
-Tokene_HallEnd_to_DiningRoom_5.text,There's a door here that you may pull open like there was no tomorrow. Yelling at the top of your lungs for the people on the other side to stop. Which isn't something you'd do. Certainly not you! Not unless the situation called for it at least.
+Tokene_HallEnd_to_DiningRoom_5.text,There's a door here that you may open.
 Tokene_HallEnd_to_DiningRoom_5.button1,{action} Explore
 Tokene_HallEnd_to_Bedroom2_2.text,There's a door here that you may open.
 Tokene_HallEnd_to_Bedroom2_2.button1,{action} Explore
-Tokene_Bathroom_to_Study_1.text,There's a door here that you may open.
-EventYard1_PlaceTile.text,Place the {c:TileYard1} as indicated and discard any Sight or Explore tokens leading to the {c:TileYard1}.
+Tokene_Bathroom_to_Study_1.text,There's a door here that is entirely unremarkable. Insignificant in every way. Except that it impedes your entrance of course.
+EventYard1_PlaceTile.text,Place the {c:TileYard1} as indicated and discard any Sight or Explore tokens leading to the  {c:TileYard1}.
+EventYard1_PlaceTile.text,Place the {c:TileYard1} as indicated and discard any Sight or Explore tokens leading to the  {c:TileYard1}.
 EventYard1_PlaceTile.button1,{qst:Continue}
 Event_place_e_Yard1_to_HallEnd_4.text,Place an Explore token as indicated.
 Event_place_e_Yard1_to_HallEnd_4.button1,{qst:Continue}
-EventHallEnd_PlaceTile.text,Place the {c:TileHallEnd} as indicated and discard any Sight or Explore tokens leading to the {c:TileHallEnd}.
+EventHallEnd_PlaceTile.text,Place the {c:TileHallEnd} as indicated and discard any Sight or Explore tokens leading to the  {c:TileHallEnd}.
 EventHallEnd_PlaceTile.button1,{qst:Continue}
 Event_place_s_HallEnd_to_Bathroom.text,Place a Sight token as indicated.
 Event_place_e_HallEnd_to_DiningRoom_5.text,Place an Explore token as indicated.
@@ -89,9 +81,9 @@ Event_place_e_HallEnd_to_Bedroom2_2.text,Place an Explore token as indicated.
 Event_place_s_HallEnd_to_Bathroom.button1,{qst:Continue}
 Event_place_e_HallEnd_to_DiningRoom_5.button1,{qst:Continue}
 Event_place_e_HallEnd_to_Bedroom2_2.button1,{qst:Continue}
-EventBedroom2_PlaceTile.text,Place the {c:TileBedroom2} as indicated and discard any Sight or Explore tokens leading to the {c:TileBedroom2}.
+EventBedroom2_PlaceTile.text,Place the {c:TileBedroom2} as indicated and discard any Sight or Explore tokens leading to the  {c:TileBedroom2}.
 EventBedroom2_PlaceTile.button1,{qst:Continue}
-EventBathroom_PlaceTile.text,Place the {c:TileBathroom} as indicated and discard any Sight or Explore tokens leading to the {c:TileBathroom}.
+EventBathroom_PlaceTile.text,Place the {c:TileBathroom} as indicated and discard any Sight or Explore tokens leading to the  {c:TileBathroom}.
 EventBathroom_PlaceTile.button1,{qst:Continue}
 Event_place_s_Bathroom_to_HallStairs.text,Place a Sight token as indicated.
 Event_place_s_Bathroom_to_HallEnd.text,Place a Sight token as indicated.
@@ -99,29 +91,29 @@ Event_place_e_Bathroom_to_Study_1.text,Place an Explore token as indicated.
 Event_place_s_Bathroom_to_HallStairs.button1,{qst:Continue}
 Event_place_s_Bathroom_to_HallEnd.button1,{qst:Continue}
 Event_place_e_Bathroom_to_Study_1.button1,{qst:Continue}
-EventHallStairs_PlaceTile.text,Place the {c:TileHallStairs} as indicated and discard any Sight or Explore tokens leading to the {c:TileHallStairs}.
+EventHallStairs_PlaceTile.text,Place the {c:TileHallStairs} as indicated and discard any Sight or Explore tokens leading to the  {c:TileHallStairs}.
 EventHallStairs_PlaceTile.button1,{qst:Continue}
 Event_place_s_HallStairs_to_Bathroom.text,Place a Sight token as indicated.
 Event_place_e_HallStairs_to_Basement_6.text,Place an Explore token as indicated.
 Event_place_s_HallStairs_to_Bathroom.button1,{qst:Continue}
 Event_place_e_HallStairs_to_Basement_6.button1,{qst:Continue}
-EventDiningRoom_PlaceTile.text,Place the {c:TileDiningRoom} as indicated and discard any Sight or Explore tokens leading to the {c:TileDiningRoom}.
+EventDiningRoom_PlaceTile.text,Place the {c:TileDiningRoom} as indicated and discard any Sight or Explore tokens leading to the  {c:TileDiningRoom}.
 EventDiningRoom_PlaceTile.button1,{qst:Continue}
-Event_place_v_DiningRoom_to_13.text,Place a wall as indicated.
-Event_place_v_DiningRoom_to_12.text,Place a wall as indicated.
-Event_place_v_DiningRoom_to_13.button1,{qst:Continue}
-Event_place_v_DiningRoom_to_12.button1,{qst:Continue}
-EventStudy_PlaceTile.text,Place the {c:TileStudy} as indicated and discard any Sight or Explore tokens leading to the {c:TileStudy}.
+Event_place_v_DiningRoom_to_6.text,Place a wall as indicated.
+Event_place_v_DiningRoom_to_5.text,Place a wall as indicated.
+Event_place_v_DiningRoom_to_6.button1,{qst:Continue}
+Event_place_v_DiningRoom_to_5.button1,{qst:Continue}
+EventStudy_PlaceTile.text,Place the {c:TileStudy} as indicated and discard any Sight or Explore tokens leading to the  {c:TileStudy}.
 EventStudy_PlaceTile.button1,{qst:Continue}
-Event_place_v_Study_to_11.text,Place a wall as indicated.
-Event_place_v_Study_to_11.button1,{qst:Continue}
-EventBasement_PlaceTile.text,Place the {c:TileBasement} as indicated and discard any Sight or Explore tokens leading to the {c:TileBasement}.
+Event_place_v_Study_to_4.text,Place a wall as indicated.
+Event_place_v_Study_to_4.button1,{qst:Continue}
+EventBasement_PlaceTile.text,Place the {c:TileBasement} as indicated and discard any Sight or Explore tokens leading to the  {c:TileBasement}.
 EventBasement_PlaceTile.button1,{qst:Continue}
-Event_place_w_Basement_to_8.text,Place a wall as indicated.
-Event_place_w_Basement_to_6.text,Place a wall as indicated.
-Event_place_w_Basement_to_2.text,Place a wall as indicated.
-Event_place_w_Basement_to_8.button1,{qst:Continue}
-Event_place_w_Basement_to_6.button1,{qst:Continue}
+Event_place_v_Basement_to_9.text,Place a wall as indicated.
+Event_place_v_Basement_to_8.text,Place a wall as indicated.
+Event_place_v_Basement_to_10.text,Place a wall as indicated.
+Event_place_v_Basement_to_9.button1,{qst:Continue}
+Event_place_v_Basement_to_8.button1,{qst:Continue}
 TokenBedroomequations_01.button1,{action} Study the equations
 TokenMirrorBedrom2.text,The Bedroom mirror catches your eye. Something looks off, but it might just be your imagination.
 EventBedroommirror1.text,Something feels wrong when you look in the mirror but everything is in the right place. Test {observation}
