@@ -148,18 +148,18 @@ EventStudyFireplace.button1,Continue
 TokenDiningCabinet.text,The dining cabinet has a mirror that catches your eye. Something with it gives off a disconcerting feeling but a feeling is just a feeling, right?
 TokenDiningCabinet.button1,Continue
 TokenMirrorBathroom_01.text,The bathroom mirror catches your eye. Something is wrong, but it's hard to put words to.
-TokenCuriousBox.text,It's a large box, roughly the size of 2 grown men side by side. It l8oks as if it's been opened and hastily closed again.
+TokenCuriousBox.text,It's a large box, roughly the size of 2 grown men side by side. It looks as if it's been opened and hastily closed again.
 TokenCuriousBox.button1,{action}Open it
 EventOpeningBox.text,Inside is a blackened mirror, curious markings fill the frame.
 EventOpeningBox.button1,Continue
 TokenBlackenedMirror_1.button2,Look into the mirror
 TokenBlackenedMirror_1.text,A blackened mirror, curious markings fill the silver frame.
 EventEnterTheMirrorFail.text,You feel run your hands over the paint. it is dry but has no give. At the edges, the paint doesn't quite cover the mirror and when your hand touches the actual mirror you get a tingly sensation and a ripple in the surface.\nSuddenly some of the mirror flows out runs over the tip of your fingers.\nJust as suddenly you feel a sting as the mirror substance is gone and you missing a layer of skin on your fingertips. You swear breifly, clutching your fingers. What is really going on here? Gain a clue.
-EventLookIntoBlackenedMirror.text,As is clear already, the mirror is entirely black. It would not normally be called a mirror since it doesn't reflect anything, but it is clear that it is in fact a mirror that someone has painted over with black paint.
+EventLookIntoBlackenedMirror.text,As is clear already, the mirror is entirely black. It would not normally be called a mirror since it doesn't reflect anything, but it is clear that it is in fact a mirror that someone has painted over with black paint. Though it kind of looks like someone painted on the inside between 2 panes of glass.
 EventLookIntoBlackenedMirror.button1,Continue
 TokenBlackenedMirror_1.button1,{action}Feel the surface
 EventEnterTheMirrorFail.button1,Continue
-TokenABlackenedMirror_2.text,The mirror is lying in pieces. Black shards spread everywhere and the box is on fire.
+TokenABlackenedMirror_2.text,The mirror is lying in pieces. Shards spread everywhere and the box is on fire.
 TokenABlackenedMirror_2.button1,Continue
 TokenVictimBedroom_1.text,A woman is staring back at you through the mirror.
 TokenVictimBedroom_1.button1,Continue
@@ -177,7 +177,6 @@ TokenVictimBathroom_1.text,A woman is staring back at you through the mirror.
 EventStudymirrorfail.button1,Continue
 EventStudymirroreyesuccess.text,Wait a moment, left... right... the mirror image is not reversed. You call out to the others to draw their attention to the phenomenon, but when you look back everything is as it should be. Take 1 horror ({will} negates)
 EventStudymirroreyesuccess.button1,Continue
-EventBlueWomanDialogue.button1,Button1
 EventVictim1bluewoman.text,"""Hi, who are you? I'm confused. I mean, my name's confused. I mean... who are you?"""
 EventVictim1bluewoman.button1,"{action}""I think we're here to get you out."""
 EventVictim1bluewoman.button2,"{action}""I think you need to stop doing what you're doing."""
@@ -206,3 +205,104 @@ EventSetupMirrors1.button1,Button1
 EventBedroom2MirrorIsSetup.button1,Button1
 EventSetupMirrors2.button1,Button1
 EventMirrorSetup3.button1,Button1
+EventVictim2.text,"""uhm... where am I to go."" She looks uncertain of herself and like a flighty wisp, ready to flee at any notice."
+EventVictim2.button1,"{action}""Cover the mirror"""
+Eventvictim1into2.button1,Continue
+EventVictim1into3.text,"""I'm doing something?"" She stares at you blankly for a bit and then nods resolutely. ""You're right. We need to stop me. But I'll need your help for that!"""
+Eventvictim1into2.text,"""Oh? Erh... That's good. I think? Is that what's supposed to happen?"""
+EventVictim1into3.button1,Continue
+TokenBlackenedMirror_1.button3,"""Are you there?"""
+EventVictim2BlackMirrorShatters.text,You stare at the mirror elatedly. The mirror practically shines from behind the paint which is slowly being peeled away from the other side. You hear knocking from the other side and realise that she still can't get through.
+EventVictim2BlackMirrorShatters.button1,Continue
+EventVictim2BlackMirrorShattersB.button1,Continue
+TokenVictim4.text,The woman is lying still on the ground. Minute movements lead you to conclude that she is breathing, but otherwise she appears unconcious.
+EventVictim2BlackMirrorShattersB.text,Suddenly the mirror explodes. \nAny investigator sharing a space with a mirror recieve 2 damage face down.\nPlace the blue woman token as indicated.
+TokenVictim4.button1,Pick her up.
+TokenVictim4.button2,Leave her be.
+EventCarryWoman.text,You decide to carry her out.\nPlace her token on your character card. While carrying her any movement action only allows you 1 movement step. You may trade her with another investigator like any object.
+EventCarryWoman.button1,Continue
+EventCount1.text,"""One..."""
+EventCount1.button1,Continue
+EventCount2.button1,Continue
+EventCount3.button1,Continue
+EventCount2.text,"""Two..."""
+TokenMirrorBathroom_2.button1,Continue
+EventCount3.text,"""Three! You strike quickly and the mirror shatters."" (If you have any type of weapon, even a gun you take no damage. Otherwise you recieve 1 damage face up)"
+SpawnBlackMirrorClone.text,From the shard of the mirror a cloak forms. You can see through the cloak, sort of. Well, you can see through it for a while. It forms quite rapidly and when it is whole it seems solid and the person staring out is... you?\nYou should have known with what you'd seen in the mirrors beforehand that you were going to face yourself or a close facsimile.
+SpawnBlackMirrorClone.button1,Continue
+SpawnBedroom2MirrorClone.text,{qst:SpawnBlackMirrorClone.text}
+SpawnBedroom2MirrorClone.button1,Continue
+SpawnDiningCabinetMirrorClone.text,{qst:SpawnBlackMirrorClone.text}
+SpawnDiningCabinetMirrorClone.button1,Continue
+SpawnStudyMirrorClone.text,{qst:SpawnBlackMirrorClone.text}
+SpawnStudyMirrorClone.button1,Continue
+SpawnBathroomMirrorClone.text,{qst:SpawnBlackMirrorClone.text}
+SpawnBathroomMirrorClone.button1,Continue
+EventVictim3BlackMirrorShatterB.text,Suddenly the mirror explodes, followed by every other mirror exploding in the apartment.\nAny investigator sharing a space with a mirror recieve 2 damage face down.\nPlace the blue woman token as indicated.
+CustomMonsterMirrorCultist.info,-
+CustomMonsterMirrorCultist.monstername,MirrorCultist
+EventVictim3.text,"""We need to close the connections. There should be {var:MirrorNR} left."""
+EventVictim3.button1,Continue
+EventVictim2CoverBedroom.button1,Continue
+EventVictim2CoverBedroom.text,The woman turns to the bed and the mirror is soon covered. You follow suit. \nGood enough. Though it does look like a child has dressed up as a ghost.
+EventVictim2CoverDiningRoom.button1,Continue
+EventVictim2CoverStudy.text,She picks up a large book lying on the table and covers a corner, followed by a couple of papers and other knicknaks. It doesn't feel stable, but it is covered. You take books from the shelf and stack them infront of your side of the mirror.
+EventVictim2CoverStudy1.text,She picks up a large book lying on the table and covers a corner, followed by a couple of papers and other knicknaks. It doesn't feel stable, but it is covered. You take books from the shelf and stack them infront of your side of the mirror.
+EventVictim2CoverBathroom.text,The woman stretches for the mirror and the view shifts. You feel vertigo as what you see no longer adds up with where the mirror is. Suddenly it moves back and the womans spreads a whitish paste on it. You quickly get the idea and open the cabinet to grabb the toothpaste.
+EventVictim2CoverDiningRoom.text,As soon as the the view changes you lay the mirror down. Most likely she did the same.
+EventVictim2CoverBathroom.button1,Continue
+EventVictim2CoverStudy1.button1,Continue
+EventVictim2CoverStudy.button1,Continue
+EventVictim2.button2,"""Go to the bathroom"""
+EventVictim2.button3,"""Go to the bedroom"""
+EventVictim2.button4,"""Go to the dining room"""
+EventVictim2.button5,"""Go to the study"""
+EventVictim2.button6,"""Go to the blackened mirror."""
+EventVictim2EarlyBlackMirror.text,You hear knocking from the other side of the black paint. You try peel it off, but the mirror is smooth as if the paint is inside the glass.
+EventVictim2EarlyBlackMirrorB.text,"""I can't get back I think the other connections are taking the light from this one."""
+EventVictim1into3B.text,"You nod and the woman smiles. ""We need to close most of the connections. There should be {var:MirrorNR} left. Start with breaking this one. On the count of three."""
+EventVictim1into3B.button1,Continue
+EventVictim3B_Bathroom.text,"""I'll go to the bathroom next, just break this one on three."""
+EventVictim3B_Bathroom.button1,Continue
+EventVictim3B_Bedroom.text,"""I'll go to the bedroom next, just break this one on three."""
+EventVictim3B_Bedroom.button1,Continue
+EventVictim3B_DiningRoom.text,"""I'll go to the Dining room next, just break this one on three."""
+EventVictim3B_DiningRoom.button1,Continue
+EventVictim3B_Study.text,"""I'll go to the Study next, just break this one on three."""
+EventVictim3B_Study.button1,Continue
+EventVictim3B_BlackMirrorEarly.text,"""This should be enough. I'll go to the Black Mirror next, just break this one on three."""
+EventVictim3B_BlackMirrorEarly.button1,Continue
+EventVictim3B_BlackMirror.text,"""This was the last one. I'll go to the Black Mirror next, just break this one on three."""
+EventVictim3B_BlackMirror.button1,Continue
+EventVictim3EarlyBlackMirror.text,"You hear knocking from the other side. A voice calls out: ""You there? It seems like we need to do all of them. Disapointing."" You hear a deep sigh."
+EventVictim3EarlyBlackMirror.button1,Continue
+EventDisapointedToBedroom.text,"""I think I'll...\ngo to the bedroom next."""
+EventDisapointedToBedroom.button1,Continue
+EventDisapointedToBathroom.text,"""I think I'll... go to the bathroom next."""
+EventDisapointedToBathroom.button1,Continue
+EventDisapointedToStudy.text,"""I think I'll...\ngo to the study next."""
+EventDisapointedToStudy.button1,Continue
+EventDisapointedToDiningroom.text,"""I think I'll...\ngo to the dining room next."""
+EventDisapointedToDiningroom.button1,Continue
+EventVictim2EarlyBlackMirrorB.button1,"""go to the bathroom"""
+EventVictim2EarlyBlackMirrorB.button2,"""go to the bedroom."""
+EventVictim2EarlyBlackMirrorB.button3,"""go to the dining room. """
+EventVictim2EarlyBlackMirrorB.button4,"""go to the study. """
+EventVictim2EarlyBlackMirror.button1,Continue
+EventVictim3BlackMirrorShatter.text,"The mirror practically shines from behind the paint which is slowly being peeled away from the other side. The woman calls out: ""Stand well back. I'm going to try kicking it now""\nYou back up a bit for safetys sake."
+EventVictim3BlackMirrorShatter.button1,Continue
+EventVictim3BlackMirrorShatterB.button1,Continue
+EventFireMaker.button1,Button1
+TokenMrRed2.text,Why is my house on fire?
+TokenMrRed2.button1,We're not sure
+Event2.button1,Button1
+Event0.button1,Button1
+Event3.button1,Button1
+TokenMrRed2.button2,Here can you help her? (can only be chosen if your carrying the woman from the mirror)
+TokenMrRed2.button3,Because we had to kill it. With fire!
+EventMrRed_FIRE.text,"""I'll explain later."" You say hurriedly. ""For now there's just one word you need to concentrate on."" you pause dramaticaly."
+EventMrRed_FIRE.button1,Continue
+EventMrRed_Run.text,"""Run!"""
+EventMrRed_Run.button1,Continue
+EventMrRed_NotSure.text,"""What do you mean your'e not sure? That's my property right there! I need to...""\nYou look at him and feel the frustration pouring out.\n""You NEED to know what happened?"" He takes a step back. ""Right! Yes. That place."" You wave your arm behind you to the fires. ""It's connected to something <i>other</i>"" You take a deep breath. ""That fire can't be stopped. It can't be changed. But it also won't spread."" You sigh. ""That place wasn't really yours. But if you rebuild it will be."""
+EventMrRed_NotSure.button1,Continue
