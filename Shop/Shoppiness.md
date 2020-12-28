@@ -4,4 +4,4 @@ In theory it will be 3 files,
  (yes it will be a mess)
 2,text file
  (Which of course needs to be merged with each quest file separately)
-3, the clue file
+3, the images
