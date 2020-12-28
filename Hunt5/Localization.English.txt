@@ -298,3 +298,726 @@ EventMrRed_Run.text,"""Run!"""
 EventMrRed_Run.button1,Continue
 EventMrRed_NotSure.text,"""What do you mean your'e not sure? That's my property right there! I need to...""\nYou look at him and feel the frustration pouring out.\n""You NEED to know what happened?"" He takes a step back. ""Right! Yes. That place."" You wave your arm behind you to the fires. ""It's connected to something <i>other</i>"" You take a deep breath. ""That fire can't be stopped. It can't be changed. But it also won't spread."" You sigh. ""That place wasn't really yours. But if you rebuild it will be."""
 EventMrRed_NotSure.button1,Continue
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+UIIntroductionText1.uitext,"<i>""Another day alive!""</i> Another day where you hunt the macabre and the unusual.\n\n Life has turned strange since you started working with the shop. But ever since they started giving you ""missions"" you've felt that you could help people. Much like you once needed help.\n"
+UIIntroductionText2.uitext,"<i>""oh no!""</i> Another day where you hunt eldritch things and that which goes bump in the night.\n\n Life has turned strange since you started working with the shop. Ever since they started giving you ""missions"" you've been up against all types of monstrosities. You have a headache building behind your eyes, but you can't back down.\nNot today at least.\n\nMaybe tomorrow...\n"
+UIIntroductionText3.uitext,"<i>""What were you doing again?""</i> It feels as if you just lost a day...\nor maybe two...\n\nYou breathe out carefully. You need to get back to the shop. It's the base for everything. It's where you get your missions. Your purpose.\n\nAnd one more day means one less monster\nor maybe two."
+UIIntroductionContinueText1.button1,{qst:Continue}
+EventCampaignEntry.button1,{qst:Continue}
+EventEndShopMythos.text,Move the shop to the side, but if you're playing a campaign do not remove it. When you are done with your next hunt you will reuturn to the shop as it is now. \n\nYou leave the shop urgently. Clutching the note with directions that the shop attendant gave you. As you jump into your car and drive away you glance at the note which says that you're...
+Event2nd.text,You digg through your collective pockets to see what cash you have available to purchase goods for todays mission.\n\n<i>You may increase the amount to afford more. But be warned the money you have determines the difficulty you meet.</i>
+Event3rd.text,Also place {c:Tile0} and the orange person token as indicated.
+quest.synopsys,Find the enemy, engage and deal with complications. Win!
+TokenShopAttendant.button1,{action}Tell us where we're going next 3$
+Event3rd.button1,Button1
+Event2nd.button1,{qst:Continue}
+Event4th.button1,Button1
+TokenShopAttendant.button2,{action} Any general advice? 1$
+EventShopFiller.button1,Button1
+TokenShopAttendant.text,I've got a number of items on sale. As well as gossipy tidbits about suernatural goins on. Im your one stop shop for all your needs. But you don't have time to browse you need to move now. 1 or maybe 2 items each and then you need to leave.
+Event5th.button1,Button1
+UICash.button1,{qst:Continue}
+UICash.uitext,{var:%Cash}$
+EventNoMoney.button1,{qst:Continue}
+EventNoMoney.text,Sorry. You don't have enough money.
+EventGainClue0.button1,Button1
+TokenShopAttendant.button3,Take a loan
+EventCampaignEntry.text,Place {c:Tile0} and the orange person token as indicated.
+EventClue0.text,"Ghosts cannot be permanently killed by mundane weapons or attack spells. They will however lose corporeal form when ""killed"" for a longer period."
+EventClue0.button1,{qst:Continue}
+EventTakeLoan.button1,{qst:Continue}
+EventTakeLoan.text,"""You decide how much your loan is going to be and I deduct that from your next  reward."" She turns to the register and mumbles about finding more dificult work for you to get a bigger cut. You start weighing wether or not its worth it to make life more difficult."
+Buy.text,"You call to the Attendant: ""I'm buying this."" She nods, unlocks it from it's showcase and takes the money. As she fiddles with the cashregister you notice a new item has replaced it."
+Buy.button1,Purchase
+TokenBuy18Derringer.text,There's a .18 Derringer with a tag attached saying 2$
+TokenBuy18Derringer.button1,{action}Buy the .18 Derringer for 2$
+EventFillShop18Derringer.text,A .18 Derringer lies here with a pricetag attached.
+EventFillShop18Derringer.button1,{qst:Continue}
+EventBuy18Derringer.text,{qst:Buy.text}
+EventBuy18Derringer.button1,{qst:Buy.button1}
+TokenBuy38Revolver.text,There's a .38 Revolver with a tag attached saying 3$
+TokenBuy38Revolver.button1,{action}Buy the .38 Revolver for 3$
+EventFillShop38Revolver.text,A .38 Revolver lies here with a pricetag attached.
+EventFillShop38Revolver.button1,{qst:Continue}
+EventBuy38Revolver.text,{qst:Buy.text}
+EventBuy38Revolver.button1,{qst:Buy.button1}
+TokenBuy45Automatic.text,There's a .45 Automatic with a tag attached saying 4$
+TokenBuy45Automatic.button1,{action}Buy the .45 Automatic for 4$
+EventFillShop45Automatic.text,A .45 Automatic lies here with a pricetag attached.
+EventFillShop45Automatic.button1,{qst:Continue}
+EventBuy45Automatic.text,{qst:Buy.text}
+EventBuy45Automatic.button1,{qst:Buy.button1}
+TokenBuy2x4.text,There's a 2x4 with a tag attached saying 2$
+TokenBuy2x4.button1,{action}Buy the 2x4 for 2$
+EventFillShop2x4.text,A 2x4 lies here with a pricetag attached.
+EventFillShop2x4.button1,{qst:Continue}
+EventBuy2x4.text,{qst:Buy.text}
+EventBuy2x4.button1,{qst:Buy.button1}
+TokenBuyArcaneManuscript.text,There's a Arcane Manuscript with a tag attached saying 2$
+TokenBuyArcaneManuscript.button1,{action}Buy the Arcane Manuscript for 2$
+EventFillShopArcaneManuscript.text,A Arcane Manuscript lies here with a pricetag attached.
+EventFillShopArcaneManuscript.button1,{qst:Continue}
+EventBuyArcaneManuscript.text,{qst:Buy.text}
+EventBuyArcaneManuscript.button1,{qst:Buy.button1}
+TokenBuyAxe.text,There's a Axe with a tag attached saying 3$
+TokenBuyAxe.button1,{action}Buy the Axe for 3$
+EventFillShopAxe.text,A Axe lies here with a pricetag attached.
+EventFillShopAxe.button1,{qst:Continue}
+EventBuyAxe.text,{qst:Buy.text}
+EventBuyAxe.button1,{qst:Buy.button1}
+TokenBuyBandages.text,There's a Bandages with a tag attached saying 3$
+TokenBuyBandages.button1,{action}Buy the Bandages for 3$
+EventFillShopBandages.text,A Bandages lies here with a pricetag attached.
+EventFillShopBandages.button1,{qst:Continue}
+EventBuyBandages.text,{qst:Buy.text}
+EventBuyBandages.button1,{qst:Buy.button1}
+TokenBuyBrassKnuckles.text,There's a Brass Knuckles with a tag attached saying 2$
+TokenBuyBrassKnuckles.button1,{action}Buy the Brass Knuckles for 2$
+EventFillShopBrassKnuckles.text,A Brass Knuckles lies here with a pricetag attached.
+EventFillShopBrassKnuckles.button1,{qst:Continue}
+EventBuyBrassKnuckles.text,{qst:Buy.text}
+EventBuyBrassKnuckles.button1,{qst:Buy.button1}
+TokenBuyBullseyeLantern.text,There's a Bull's-eye Lantern with a tag attached saying 2$
+TokenBuyBullseyeLantern.button1,{action}Buy the Bull's-eye Lantern for 2$
+EventFillShopBullseyeLantern.text,A Bull's-eye Lantern lies here with a pricetag attached.
+EventFillShopBullseyeLantern.button1,{qst:Continue}
+EventBuyBullseyeLantern.text,{qst:Buy.text}
+EventBuyBullseyeLantern.button1,{qst:Buy.button1}
+TokenBuyCandles.text,There's a Candles with a tag attached saying 3$
+TokenBuyCandles.button1,{action}Buy the Candles for 3$
+EventFillShopCandles.text,A Candles lies here with a pricetag attached.
+EventFillShopCandles.button1,{qst:Continue}
+EventBuyCandles.text,{qst:Buy.text}
+EventBuyCandles.button1,{qst:Buy.button1}
+TokenBuyCarbineRifle.text,There's a Carbine Rifle with a tag attached saying 5$
+TokenBuyCarbineRifle.button1,{action}Buy the Carbine Rifle for 5$
+EventFillShopCarbineRifle.text,A Carbine Rifle lies here with a pricetag attached.
+EventFillShopCarbineRifle.button1,{qst:Continue}
+EventBuyCarbineRifle.text,{qst:Buy.text}
+EventBuyCarbineRifle.button1,{qst:Buy.button1}
+TokenBuyCrowbar.text,There's a Crowbar with a tag attached saying 2$
+TokenBuyCrowbar.button1,{action}Buy the Crowbar for 2$
+EventFillShopCrowbar.text,A Crowbar lies here with a pricetag attached.
+EventFillShopCrowbar.button1,{qst:Continue}
+EventBuyCrowbar.text,{qst:Buy.text}
+EventBuyCrowbar.button1,{qst:Buy.button1}
+TokenBuyDynamite.text,There's a Dynamite with a tag attached saying 5$
+TokenBuyDynamite.button1,{action}Buy the Dynamite for 5$
+EventFillShopDynamite.text,A Dynamite lies here with a pricetag attached.
+EventFillShopDynamite.button1,{qst:Continue}
+EventBuyDynamite.text,{qst:Buy.text}
+EventBuyDynamite.button1,{qst:Buy.button1}
+TokenBuyElderSignPendant.text,There's a Elder Sign Pendant with a tag attached saying 1$
+TokenBuyElderSignPendant.button1,{action}Buy the Elder Sign Pendant for 1$
+EventFillShopElderSignPendant.text,A Elder Sign Pendant lies here with a pricetag attached.
+EventFillShopElderSignPendant.button1,{qst:Continue}
+EventBuyElderSignPendant.text,{qst:Buy.text}
+EventBuyElderSignPendant.button1,{qst:Buy.button1}
+TokenBuyElderWard.text,There's a Elder Ward with a tag attached saying 2$
+TokenBuyElderWard.button1,{action}Buy the Elder Ward for 2$
+EventFillShopElderWard.text,A Elder Ward lies here with a pricetag attached.
+EventFillShopElderWard.button1,{qst:Continue}
+EventBuyElderWard.text,{qst:Buy.text}
+EventBuyElderWard.button1,{qst:Buy.button1}
+TokenBuyFireExtinguisher.text,There's a Fire Extinguisher with a tag attached saying 3$
+TokenBuyFireExtinguisher.button1,{action}Buy the Fire Extinguisher for 3$
+EventFillShopFireExtinguisher.text,A Fire Extinguisher lies here with a pricetag attached.
+EventFillShopFireExtinguisher.button1,{qst:Continue}
+EventBuyFireExtinguisher.text,{qst:Buy.text}
+EventBuyFireExtinguisher.button1,{qst:Buy.button1}
+TokenBuyFlareGun.text,There's a Flare Gun with a tag attached saying 2$
+TokenBuyFlareGun.button1,{action}Buy the Flare Gun for 2$
+EventFillShopFlareGun.text,A Flare Gun lies here with a pricetag attached.
+EventFillShopFlareGun.button1,{qst:Continue}
+EventBuyFlareGun.text,{qst:Buy.text}
+EventBuyFlareGun.button1,{qst:Buy.button1}
+TokenBuyHolyCross.text,There's a Holy Cross with a tag attached saying 2$
+TokenBuyHolyCross.button1,{action}Buy the Holy Cross for 2$
+EventFillShopHolyCross.text,A Holy Cross lies here with a pricetag attached.
+EventFillShopHolyCross.button1,{qst:Continue}
+EventBuyHolyCross.text,{qst:Buy.text}
+EventBuyHolyCross.button1,{qst:Buy.button1}
+TokenBuyHolyWater.text,There's a Holy Water with a tag attached saying 2$
+TokenBuyHolyWater.button1,{action}Buy the Holy Water for 2$
+EventFillShopHolyWater.text,A Holy Water lies here with a pricetag attached.
+EventFillShopHolyWater.button1,{qst:Continue}
+EventBuyHolyWater.text,{qst:Buy.text}
+EventBuyHolyWater.button1,{qst:Buy.button1}
+TokenBuyKeroseneLantern.text,There's a Kerosene Lantern with a tag attached saying 2$
+TokenBuyKeroseneLantern.button1,{action}Buy the Kerosene Lantern for 2$
+EventFillShopKeroseneLantern.text,A Kerosene Lantern lies here with a pricetag attached.
+EventFillShopKeroseneLantern.button1,{qst:Continue}
+EventBuyKeroseneLantern.text,{qst:Buy.text}
+EventBuyKeroseneLantern.button1,{qst:Buy.button1}
+TokenBuyKingJamesBible.text,There's a King James Bible with a tag attached saying 5$
+TokenBuyKingJamesBible.button1,{action}Buy the King James Bible for 5$
+EventFillShopKingJamesBible.text,A King James Bible lies here with a pricetag attached.
+EventFillShopKingJamesBible.button1,{qst:Continue}
+EventBuyKingJamesBible.text,{qst:Buy.text}
+EventBuyKingJamesBible.button1,{qst:Buy.button1}
+TokenBuyKnife.text,There's a Knife with a tag attached saying 1$
+TokenBuyKnife.button1,{action}Buy the Knife for 1$
+EventFillShopKnife.text,A Knife lies here with a pricetag attached.
+EventFillShopKnife.button1,{qst:Continue}
+EventBuyKnife.text,{qst:Buy.text}
+EventBuyKnife.button1,{qst:Buy.button1}
+TokenBuyLeadPipe.text,There's a Lead Pipe with a tag attached saying 1$
+TokenBuyLeadPipe.button1,{action}Buy the Lead Pipe for 1$
+EventFillShopLeadPipe.text,A Lead Pipe lies here with a pricetag attached.
+EventFillShopLeadPipe.button1,{qst:Continue}
+EventBuyLeadPipe.text,{qst:Buy.text}
+EventBuyLeadPipe.button1,{qst:Buy.button1}
+TokenBuyLuckyCigaretteCase.text,There's a Lucky Cigarette Case with a tag attached saying 3$
+TokenBuyLuckyCigaretteCase.button1,{action}Buy the Lucky Cigarette Case for 3$
+EventFillShopLuckyCigaretteCase.text,A Lucky Cigarette Case lies here with a pricetag attached.
+EventFillShopLuckyCigaretteCase.button1,{qst:Continue}
+EventBuyLuckyCigaretteCase.text,{qst:Buy.text}
+EventBuyLuckyCigaretteCase.button1,{qst:Buy.button1}
+TokenBuyLuckyRabbitsFoot.text,There's a Lucky Rabbit's Foot with a tag attached saying 3$
+TokenBuyLuckyRabbitsFoot.button1,{action}Buy the Lucky Rabbit's Foot for 3$
+EventFillShopLuckyRabbitsFoot.text,A Lucky Rabbit's Foot lies here with a pricetag attached.
+EventFillShopLuckyRabbitsFoot.button1,{qst:Continue}
+EventBuyLuckyRabbitsFoot.text,{qst:Buy.text}
+EventBuyLuckyRabbitsFoot.button1,{qst:Buy.button1}
+TokenBuyMachete.text,There's a Machete with a tag attached saying 2$
+TokenBuyMachete.button1,{action}Buy the Machete for 2$
+EventFillShopMachete.text,A Machete lies here with a pricetag attached.
+EventFillShopMachete.button1,{qst:Continue}
+EventBuyMachete.text,{qst:Buy.text}
+EventBuyMachete.button1,{qst:Buy.button1}
+TokenBuyMagnifyingGlass.text,There's a Magnifying Glass with a tag attached saying 2$
+TokenBuyMagnifyingGlass.button1,{action}Buy the Magnifying Glass for 2$
+EventFillShopMagnifyingGlass.text,A Magnifying Glass lies here with a pricetag attached.
+EventFillShopMagnifyingGlass.button1,{qst:Continue}
+EventBuyMagnifyingGlass.text,{qst:Buy.text}
+EventBuyMagnifyingGlass.button1,{qst:Buy.button1}
+TokenBuyMeatCleaver.text,There's a Meat Cleaver with a tag attached saying 3$
+TokenBuyMeatCleaver.button1,{action}Buy the Meat Cleaver for 3$
+EventFillShopMeatCleaver.text,A Meat Cleaver lies here with a pricetag attached.
+EventFillShopMeatCleaver.button1,{qst:Continue}
+EventBuyMeatCleaver.text,{qst:Buy.text}
+EventBuyMeatCleaver.button1,{qst:Buy.button1}
+TokenBuyMedicalTextbook.text,There's a Medical Textbook with a tag attached saying 5$
+TokenBuyMedicalTextbook.button1,{action}Buy the Medical Textbook for 5$
+EventFillShopMedicalTextbook.text,A Medical Textbook lies here with a pricetag attached.
+EventFillShopMedicalTextbook.button1,{qst:Continue}
+EventBuyMedicalTextbook.text,{qst:Buy.text}
+EventBuyMedicalTextbook.button1,{qst:Buy.button1}
+TokenBuyPickaxe.text,There's a Pickaxe with a tag attached saying 3$
+TokenBuyPickaxe.button1,{action}Buy the Pickaxe for 3$
+EventFillShopPickaxe.text,A Pickaxe lies here with a pricetag attached.
+EventFillShopPickaxe.button1,{qst:Continue}
+EventBuyPickaxe.text,{qst:Buy.text}
+EventBuyPickaxe.button1,{qst:Buy.button1}
+TokenBuyPocketWatch.text,There's a Pocket Watch with a tag attached saying 2$
+TokenBuyPocketWatch.button1,{action}Buy the Pocket Watch for 2$
+EventFillShopPocketWatch.text,A Pocket Watch lies here with a pricetag attached.
+EventFillShopPocketWatch.button1,{qst:Continue}
+EventBuyPocketWatch.text,{qst:Buy.text}
+EventBuyPocketWatch.button1,{qst:Buy.button1}
+TokenBuyRitualDagger.text,There's a Ritual Dagger with a tag attached saying 2$
+TokenBuyRitualDagger.button1,{action}Buy the Ritual Dagger for 2$
+EventFillShopRitualDagger.text,A Ritual Dagger lies here with a pricetag attached.
+EventFillShopRitualDagger.button1,{qst:Continue}
+EventBuyRitualDagger.text,{qst:Buy.text}
+EventBuyRitualDagger.button1,{qst:Buy.button1}
+TokenBuySedatives.text,There's a Sedatives with a tag attached saying 6$
+TokenBuySedatives.button1,{action}Buy the Sedatives for 6$
+EventFillShopSedatives.text,A Sedatives lies here with a pricetag attached.
+EventFillShopSedatives.button1,{qst:Continue}
+EventBuySedatives.text,{qst:Buy.text}
+EventBuySedatives.button1,{qst:Buy.button1}
+TokenBuyShotgun.text,There's a Shotgun with a tag attached saying 6$
+TokenBuyShotgun.button1,{action}Buy the Shotgun for 6$
+EventFillShopShotgun.text,A Shotgun lies here with a pricetag attached.
+EventFillShopShotgun.button1,{qst:Continue}
+EventBuyShotgun.text,{qst:Buy.text}
+EventBuyShotgun.button1,{qst:Buy.button1}
+TokenBuyShovel.text,There's a Shovel with a tag attached saying 1$
+TokenBuyShovel.button1,{action}Buy the Shovel for 1$
+EventFillShopShovel.text,A Shovel lies here with a pricetag attached.
+EventFillShopShovel.button1,{qst:Continue}
+EventBuyShovel.text,{qst:Buy.text}
+EventBuyShovel.button1,{qst:Buy.button1}
+TokenBuySledgehammer.text,There's a Sledgehammer with a tag attached saying 3$
+TokenBuySledgehammer.button1,{action}Buy the Sledgehammer for 3$
+EventFillShopSledgehammer.text,A Sledgehammer lies here with a pricetag attached.
+EventFillShopSledgehammer.button1,{qst:Continue}
+EventBuySledgehammer.text,{qst:Buy.text}
+EventBuySledgehammer.button1,{qst:Buy.button1}
+TokenBuyTommyGun.text,There's a Tommy Gun with a tag attached saying 5$
+TokenBuyTommyGun.button1,{action}Buy the Tommy Gun for 5$
+EventFillShopTommyGun.text,A Tommy Gun lies here with a pricetag attached.
+EventFillShopTommyGun.button1,{qst:Continue}
+EventBuyTommyGun.text,{qst:Buy.text}
+EventBuyTommyGun.button1,{qst:Buy.button1}
+TokenBuyTorch.text,There's a Torch with a tag attached saying 2$
+TokenBuyTorch.button1,{action}Buy the Torch for 2$
+EventFillShopTorch.text,A Torch lies here with a pricetag attached.
+EventFillShopTorch.button1,{qst:Continue}
+EventBuyTorch.text,{qst:Buy.text}
+EventBuyTorch.button1,{qst:Buy.button1}
+TokenBuyWhiskey.text,There's a Whiskey with a tag attached saying 2$
+TokenBuyWhiskey.button1,{action}Buy the Whiskey for 2$
+EventFillShopWhiskey.text,A Whiskey lies here with a pricetag attached.
+EventFillShopWhiskey.button1,{qst:Continue}
+EventBuyWhiskey.text,{qst:Buy.text}
+EventBuyWhiskey.button1,{qst:Buy.button1}
+TokenBuyWrench.text,There's a Wrench with a tag attached saying 1$
+TokenBuyWrench.button1,{action}Buy the Wrench for 1$
+EventFillShopWrench.text,A Wrench lies here with a pricetag attached.
+EventFillShopWrench.button1,{qst:Continue}
+EventBuyWrench.text,{qst:Buy.text}
+EventBuyWrench.button1,{qst:Buy.button1}
+TokenBuy25Automatic.text,There's a .25 Automatic with a tag attached saying 3$
+TokenBuy25Automatic.button1,{action}Buy the .25 Automatic for 3$
+EventFillShop25Automatic.text,A .25 Automatic lies here with a pricetag attached.
+EventFillShop25Automatic.button1,{qst:Continue}
+EventBuy25Automatic.text,{qst:Buy.text}
+EventBuy25Automatic.button1,{qst:Buy.button1}
+TokenBuyBlackjack.text,There's a Blackjack with a tag attached saying 2$
+TokenBuyBlackjack.button1,{action}Buy the Blackjack for 2$
+EventFillShopBlackjack.text,A Blackjack lies here with a pricetag attached.
+EventFillShopBlackjack.button1,{qst:Continue}
+EventBuyBlackjack.text,{qst:Buy.text}
+EventBuyBlackjack.button1,{qst:Buy.button1}
+TokenBuyEnchantedBlade.text,There's a Enchanted Blade with a tag attached saying 3$
+TokenBuyEnchantedBlade.button1,{action}Buy the Enchanted Blade for 3$
+EventFillShopEnchantedBlade.text,A Enchanted Blade lies here with a pricetag attached.
+EventFillShopEnchantedBlade.button1,{qst:Continue}
+EventBuyEnchantedBlade.text,{qst:Buy.text}
+EventBuyEnchantedBlade.button1,{qst:Buy.button1}
+TokenBuyFineClothes.text,There's a Fine Clothes with a tag attached saying 2$
+TokenBuyFineClothes.button1,{action}Buy the Fine Clothes for 2$
+EventFillShopFineClothes.text,A Fine Clothes lies here with a pricetag attached.
+EventFillShopFineClothes.button1,{qst:Continue}
+EventBuyFineClothes.text,{qst:Buy.text}
+EventBuyFineClothes.button1,{qst:Buy.button1}
+TokenBuyScribesJournal.text,There's a Scribe's Journal with a tag attached saying 3$
+TokenBuyScribesJournal.button1,{action}Buy the Scribe's Journal for 3$
+EventFillShopScribesJournal.text,A Scribe's Journal lies here with a pricetag attached.
+EventFillShopScribesJournal.button1,{qst:Continue}
+EventBuyScribesJournal.text,{qst:Buy.text}
+EventBuyScribesJournal.button1,{qst:Buy.button1}
+TokenBuyRazor.text,There's a Razor with a tag attached saying 2$
+TokenBuyRazor.button1,{action}Buy the Razor for 2$
+EventFillShopRazor.text,A Razor lies here with a pricetag attached.
+EventFillShopRazor.button1,{qst:Continue}
+EventBuyRazor.text,{qst:Buy.text}
+EventBuyRazor.button1,{qst:Buy.button1}
+TokenBuyTomeofHorrors.text,There's a Tome of Horrors with a tag attached saying 3$
+TokenBuyTomeofHorrors.button1,{action}Buy the Tome of Horrors for 3$
+EventFillShopTomeofHorrors.text,A Tome of Horrors lies here with a pricetag attached.
+EventFillShopTomeofHorrors.button1,{qst:Continue}
+EventBuyTomeofHorrors.text,{qst:Buy.text}
+EventBuyTomeofHorrors.button1,{qst:Buy.button1}
+TokenBuyTomeofSecrets.text,There's a Tome of Secrets with a tag attached saying 3$
+TokenBuyTomeofSecrets.button1,{action}Buy the Tome of Secrets for 3$
+EventFillShopTomeofSecrets.text,A Tome of Secrets lies here with a pricetag attached.
+EventFillShopTomeofSecrets.button1,{qst:Continue}
+EventBuyTomeofSecrets.text,{qst:Buy.text}
+EventBuyTomeofSecrets.button1,{qst:Buy.button1}
+TokenBuyBulletproofVest.text,There's a Bulletproof Vest with a tag attached saying 3$
+TokenBuyBulletproofVest.button1,{action}Buy the Bulletproof Vest for 3$
+EventFillShopBulletproofVest.text,A Bulletproof Vest lies here with a pricetag attached.
+EventFillShopBulletproofVest.button1,{qst:Continue}
+EventBuyBulletproofVest.text,{qst:Buy.text}
+EventBuyBulletproofVest.button1,{qst:Buy.button1}
+TokenBuyGamblersDice.text,There's a Gambler's Dice with a tag attached saying 3$
+TokenBuyGamblersDice.button1,{action}Buy the Gambler's Dice for 3$
+EventFillShopGamblersDice.text,A Gambler's Dice lies here with a pricetag attached.
+EventFillShopGamblersDice.button1,{qst:Continue}
+EventBuyGamblersDice.text,{qst:Buy.text}
+EventBuyGamblersDice.button1,{qst:Buy.button1}
+TokenBuyScalpel.text,There's a Scalpel with a tag attached saying 2$
+TokenBuyScalpel.button1,{action}Buy the Scalpel for 2$
+EventFillShopScalpel.text,A Scalpel lies here with a pricetag attached.
+EventFillShopScalpel.button1,{qst:Continue}
+EventBuyScalpel.text,{qst:Buy.text}
+EventBuyScalpel.button1,{qst:Buy.button1}
+TokenBuySnubnoseRevolver.text,There's a Snubnose Revolver with a tag attached saying 2$
+TokenBuySnubnoseRevolver.button1,{action}Buy the Snubnose Revolver for 2$
+EventFillShopSnubnoseRevolver.text,A Snubnose Revolver lies here with a pricetag attached.
+EventFillShopSnubnoseRevolver.button1,{qst:Continue}
+EventBuySnubnoseRevolver.text,{qst:Buy.text}
+EventBuySnubnoseRevolver.button1,{qst:Buy.button1}
+TokenBuyThermos.text,There's a Thermos with a tag attached saying 3$
+TokenBuyThermos.button1,{action}Buy the Thermos for 3$
+EventFillShopThermos.text,A Thermos lies here with a pricetag attached.
+EventFillShopThermos.button1,{qst:Continue}
+EventBuyThermos.text,{qst:Buy.text}
+EventBuyThermos.button1,{qst:Buy.button1}
+TokenBuyEnhancingSerum.text,There's a Enhancing Serum with a tag attached saying 4$
+TokenBuyEnhancingSerum.button1,{action}Buy the Enhancing Serum for 4$
+EventFillShopEnhancingSerum.text,A Enhancing Serum lies here with a pricetag attached.
+EventFillShopEnhancingSerum.button1,{qst:Continue}
+EventBuyEnhancingSerum.text,{qst:Buy.text}
+EventBuyEnhancingSerum.button1,{qst:Buy.button1}
+TokenBuyMoonPotion.text,There's a Moon Potion with a tag attached saying 4$
+TokenBuyMoonPotion.button1,{action}Buy the Moon Potion for 4$
+EventFillShopMoonPotion.text,A Moon Potion lies here with a pricetag attached.
+EventFillShopMoonPotion.button1,{qst:Continue}
+EventBuyMoonPotion.text,{qst:Buy.text}
+EventBuyMoonPotion.button1,{qst:Buy.button1}
+TokenBuyMutationJuice.text,There's a Mutation Juice with a tag attached saying 4$
+TokenBuyMutationJuice.button1,{action}Buy the Mutation Juice for 4$
+EventFillShopMutationJuice.text,A Mutation Juice lies here with a pricetag attached.
+EventFillShopMutationJuice.button1,{qst:Continue}
+EventBuyMutationJuice.text,{qst:Buy.text}
+EventBuyMutationJuice.button1,{qst:Buy.button1}
+TokenBuyFlask.text,There's a Flask with a tag attached saying 4$
+TokenBuyFlask.button1,{action}Buy the Flask for 4$
+EventFillShopFlask.text,A Flask lies here with a pricetag attached.
+EventFillShopFlask.button1,{qst:Continue}
+EventBuyFlask.text,{qst:Buy.text}
+EventBuyFlask.button1,{qst:Buy.button1}
+TokenBuyOcularExtract.text,There's a Ocular Extract with a tag attached saying 4$
+TokenBuyOcularExtract.button1,{action}Buy the Ocular Extract for 4$
+EventFillShopOcularExtract.text,A Ocular Extract lies here with a pricetag attached.
+EventFillShopOcularExtract.button1,{qst:Continue}
+EventBuyOcularExtract.text,{qst:Buy.text}
+EventBuyOcularExtract.button1,{qst:Buy.button1}
+TokenBuyMentalStimulant.text,There's a Mental Stimulant with a tag attached saying 4$
+TokenBuyMentalStimulant.button1,{action}Buy the Mental Stimulant for 4$
+EventFillShopMentalStimulant.text,A Mental Stimulant lies here with a pricetag attached.
+EventFillShopMentalStimulant.button1,{qst:Continue}
+EventBuyMentalStimulant.text,{qst:Buy.text}
+EventBuyMentalStimulant.button1,{qst:Buy.button1}
+TokenBuyPainkiller.text,There's a Painkiller with a tag attached saying 3$
+TokenBuyPainkiller.button1,{action}Buy the Painkiller for 3$
+EventFillShopPainkiller.text,A Painkiller lies here with a pricetag attached.
+EventFillShopPainkiller.button1,{qst:Continue}
+EventBuyPainkiller.text,{qst:Buy.text}
+EventBuyPainkiller.button1,{qst:Buy.button1}
+TokenBuyBindingPowder.text,There's a Binding Powder with a tag attached saying 2$
+TokenBuyBindingPowder.button1,{action}Buy the Binding Powder for 2$
+EventFillShopBindingPowder.text,A Binding Powder lies here with a pricetag attached.
+EventFillShopBindingPowder.button1,{qst:Continue}
+EventBuyBindingPowder.text,{qst:Buy.text}
+EventBuyBindingPowder.button1,{qst:Buy.button1}
+TokenBuyConvincingDummy.text,There's a Convincing Dummy with a tag attached saying 2$
+TokenBuyConvincingDummy.button1,{action}Buy the Convincing Dummy for 2$
+EventFillShopConvincingDummy.text,A Convincing Dummy lies here with a pricetag attached.
+EventFillShopConvincingDummy.button1,{qst:Continue}
+EventBuyConvincingDummy.text,{qst:Buy.text}
+EventBuyConvincingDummy.button1,{qst:Buy.button1}
+TokenBuyLuckyRing.text,There's a Lucky Ring with a tag attached saying 3$
+TokenBuyLuckyRing.button1,{action}Buy the Lucky Ring for 3$
+EventFillShopLuckyRing.text,A Lucky Ring lies here with a pricetag attached.
+EventFillShopLuckyRing.button1,{qst:Continue}
+EventBuyLuckyRing.text,{qst:Buy.text}
+EventBuyLuckyRing.button1,{qst:Buy.button1}
+TokenBuyRiotWhistle.text,There's a Riot Whistle with a tag attached saying 3$
+TokenBuyRiotWhistle.button1,{action}Buy the Riot Whistle for 3$
+EventFillShopRiotWhistle.text,A Riot Whistle lies here with a pricetag attached.
+EventFillShopRiotWhistle.button1,{qst:Continue}
+EventBuyRiotWhistle.text,{qst:Buy.text}
+EventBuyRiotWhistle.button1,{qst:Buy.button1}
+TokenBuySensibleShoes.text,There's a Sensible Shoes with a tag attached saying 2$
+TokenBuySensibleShoes.button1,{action}Buy the Sensible Shoes for 2$
+EventFillShopSensibleShoes.text,A Sensible Shoes lies here with a pricetag attached.
+EventFillShopSensibleShoes.button1,{qst:Continue}
+EventBuySensibleShoes.text,{qst:Buy.text}
+EventBuySensibleShoes.button1,{qst:Buy.button1}
+TokenBuySilverTwilightDagger.text,There's a Silver Twilight Dagger with a tag attached saying 2$
+TokenBuySilverTwilightDagger.button1,{action}Buy the Silver Twilight Dagger for 2$
+EventFillShopSilverTwilightDagger.text,A Silver Twilight Dagger lies here with a pricetag attached.
+EventFillShopSilverTwilightDagger.button1,{qst:Continue}
+EventBuySilverTwilightDagger.text,{qst:Buy.text}
+EventBuySilverTwilightDagger.button1,{qst:Buy.button1}
+TokenBuySwordCane.text,There's a Sword Cane with a tag attached saying 3$
+TokenBuySwordCane.button1,{action}Buy the Sword Cane for 3$
+EventFillShopSwordCane.text,A Sword Cane lies here with a pricetag attached.
+EventFillShopSwordCane.button1,{qst:Continue}
+EventBuySwordCane.text,{qst:Buy.text}
+EventBuySwordCane.button1,{qst:Buy.button1}
+TokenBuyToteBag.text,There's a Tote Bag with a tag attached saying 2$
+TokenBuyToteBag.button1,{action}Buy the Tote Bag for 2$
+EventFillShopToteBag.text,A Tote Bag lies here with a pricetag attached.
+EventFillShopToteBag.button1,{qst:Continue}
+EventBuyToteBag.text,{qst:Buy.text}
+EventBuyToteBag.button1,{qst:Buy.button1}
+TokenBuyTrackShoes.text,There's a Track Shoes with a tag attached saying 3$
+TokenBuyTrackShoes.button1,{action}Buy the Track Shoes for 3$
+EventFillShopTrackShoes.text,A Track Shoes lies here with a pricetag attached.
+EventFillShopTrackShoes.button1,{qst:Continue}
+EventBuyTrackShoes.text,{qst:Buy.text}
+EventBuyTrackShoes.button1,{qst:Buy.button1}
+TokenBuy41Derringer.text,There's a .41 Derringer with a tag attached saying 4$
+TokenBuy41Derringer.button1,{action}Buy the .41 Derringer for 4$
+EventFillShop41Derringer.text,A .41 Derringer lies here with a pricetag attached.
+EventFillShop41Derringer.button1,{qst:Continue}
+EventBuy41Derringer.text,{qst:Buy.text}
+EventBuy41Derringer.button1,{qst:Buy.button1}
+TokenBuyAstronomyGuidebook.text,There's a Astronomy Guidebook with a tag attached saying 2$
+TokenBuyAstronomyGuidebook.button1,{action}Buy the Astronomy Guidebook for 2$
+EventFillShopAstronomyGuidebook.text,A Astronomy Guidebook lies here with a pricetag attached.
+EventFillShopAstronomyGuidebook.button1,{qst:Continue}
+EventBuyAstronomyGuidebook.text,{qst:Buy.text}
+EventBuyAstronomyGuidebook.button1,{qst:Buy.button1}
+TokenBuyCaptainsHat.text,There's a Captain's Hat with a tag attached saying 2$
+TokenBuyCaptainsHat.button1,{action}Buy the Captain's Hat for 2$
+EventFillShopCaptainsHat.text,A Captain's Hat lies here with a pricetag attached.
+EventFillShopCaptainsHat.button1,{qst:Continue}
+EventBuyCaptainsHat.text,{qst:Buy.text}
+EventBuyCaptainsHat.button1,{qst:Buy.button1}
+TokenBuyCoalShovel.text,There's a Coal Shovel with a tag attached saying 3$
+TokenBuyCoalShovel.button1,{action}Buy the Coal Shovel for 3$
+EventFillShopCoalShovel.text,A Coal Shovel lies here with a pricetag attached.
+EventFillShopCoalShovel.button1,{qst:Continue}
+EventBuyCoalShovel.text,{qst:Buy.text}
+EventBuyCoalShovel.button1,{qst:Buy.button1}
+TokenBuyDiversHelmet.text,There's a Diver's Helmet with a tag attached saying 4$
+TokenBuyDiversHelmet.button1,{action}Buy the Diver's Helmet for 4$
+EventFillShopDiversHelmet.text,A Diver's Helmet lies here with a pricetag attached.
+EventFillShopDiversHelmet.button1,{qst:Continue}
+EventBuyDiversHelmet.text,{qst:Buy.text}
+EventBuyDiversHelmet.button1,{qst:Buy.button1}
+TokenBuyDiversJournal.text,There's a Diver's Journal with a tag attached saying 3$
+TokenBuyDiversJournal.button1,{action}Buy the Diver's Journal for 3$
+EventFillShopDiversJournal.text,A Diver's Journal lies here with a pricetag attached.
+EventFillShopDiversJournal.button1,{qst:Continue}
+EventBuyDiversJournal.text,{qst:Buy.text}
+EventBuyDiversJournal.button1,{qst:Buy.button1}
+TokenBuyFishingNet.text,There's a Fishing Net with a tag attached saying 2$
+TokenBuyFishingNet.button1,{action}Buy the Fishing Net for 2$
+EventFillShopFishingNet.text,A Fishing Net lies here with a pricetag attached.
+EventFillShopFishingNet.button1,{qst:Continue}
+EventBuyFishingNet.text,{qst:Buy.text}
+EventBuyFishingNet.button1,{qst:Buy.button1}
+TokenBuyGateBox.text,There's a Gate Box with a tag attached saying 2$
+TokenBuyGateBox.button1,{action}Buy the Gate Box for 2$
+EventFillShopGateBox.text,A Gate Box lies here with a pricetag attached.
+EventFillShopGateBox.button1,{qst:Continue}
+EventBuyGateBox.text,{qst:Buy.text}
+EventBuyGateBox.button1,{qst:Buy.button1}
+TokenBuyGatlingGun.text,There's a Gatling Gun with a tag attached saying 4$
+TokenBuyGatlingGun.button1,{action}Buy the Gatling Gun for 4$
+EventFillShopGatlingGun.text,A Gatling Gun lies here with a pricetag attached.
+EventFillShopGatlingGun.button1,{qst:Continue}
+EventBuyGatlingGun.text,{qst:Buy.text}
+EventBuyGatlingGun.button1,{qst:Buy.button1}
+TokenBuyHarpoon.text,There's a Harpoon with a tag attached saying 3$
+TokenBuyHarpoon.button1,{action}Buy the Harpoon for 3$
+EventFillShopHarpoon.text,A Harpoon lies here with a pricetag attached.
+EventFillShopHarpoon.button1,{qst:Continue}
+EventBuyHarpoon.text,{qst:Buy.text}
+EventBuyHarpoon.button1,{qst:Buy.button1}
+TokenBuyLifePreserver.text,There's a Life Preserver with a tag attached saying 3$
+TokenBuyLifePreserver.button1,{action}Buy the Life Preserver for 3$
+EventFillShopLifePreserver.text,A Life Preserver lies here with a pricetag attached.
+EventFillShopLifePreserver.button1,{qst:Continue}
+EventBuyLifePreserver.text,{qst:Buy.text}
+EventBuyLifePreserver.button1,{qst:Buy.button1}
+TokenBuyMapoftheLeyLines.text,There's a Map of the Ley Lines with a tag attached saying 4$
+TokenBuyMapoftheLeyLines.button1,{action}Buy the Map of the Ley Lines for 4$
+EventFillShopMapoftheLeyLines.text,A Map of the Ley Lines lies here with a pricetag attached.
+EventFillShopMapoftheLeyLines.button1,{qst:Continue}
+EventBuyMapoftheLeyLines.text,{qst:Buy.text}
+EventBuyMapoftheLeyLines.button1,{qst:Buy.button1}
+TokenBuyMysticSextant.text,There's a Mystic Sextant with a tag attached saying 2$
+TokenBuyMysticSextant.button1,{action}Buy the Mystic Sextant for 2$
+EventFillShopMysticSextant.text,A Mystic Sextant lies here with a pricetag attached.
+EventFillShopMysticSextant.button1,{qst:Continue}
+EventBuyMysticSextant.text,{qst:Buy.text}
+EventBuyMysticSextant.button1,{qst:Buy.button1}
+TokenBuySturdyLuggage.text,There's a Sturdy Luggage with a tag attached saying 2$
+TokenBuySturdyLuggage.button1,{action}Buy the Sturdy Luggage for 2$
+EventFillShopSturdyLuggage.text,A Sturdy Luggage lies here with a pricetag attached.
+EventFillShopSturdyLuggage.button1,{qst:Continue}
+EventBuySturdyLuggage.text,{qst:Buy.text}
+EventBuySturdyLuggage.button1,{qst:Buy.button1}
+TokenBuyAntivenom.text,There's a Antivenom with a tag attached saying 4$
+TokenBuyAntivenom.button1,{action}Buy the Antivenom for 4$
+EventFillShopAntivenom.text,A Antivenom lies here with a pricetag attached.
+EventFillShopAntivenom.button1,{qst:Continue}
+EventBuyAntivenom.text,{qst:Buy.text}
+EventBuyAntivenom.button1,{qst:Buy.button1}
+TokenBuyDiscofItzamna.text,There's a Disc of Itzamna with a tag attached saying 4$
+TokenBuyDiscofItzamna.button1,{action}Buy the Disc of Itzamna for 4$
+EventFillShopDiscofItzamna.text,A Disc of Itzamna lies here with a pricetag attached.
+EventFillShopDiscofItzamna.button1,{qst:Continue}
+EventBuyDiscofItzamna.text,{qst:Buy.text}
+EventBuyDiscofItzamna.button1,{qst:Buy.button1}
+TokenBuyHedgeShears.text,There's a Hedge Shears with a tag attached saying 3$
+TokenBuyHedgeShears.button1,{action}Buy the Hedge Shears for 3$
+EventFillShopHedgeShears.text,A Hedge Shears lies here with a pricetag attached.
+EventFillShopHedgeShears.button1,{qst:Continue}
+EventBuyHedgeShears.text,{qst:Buy.text}
+EventBuyHedgeShears.button1,{qst:Buy.button1}
+TokenBuyExpeditionLog.text,There's a Expedition Log with a tag attached saying 3$
+TokenBuyExpeditionLog.button1,{action}Buy the Expedition Log for 3$
+EventFillShopExpeditionLog.text,A Expedition Log lies here with a pricetag attached.
+EventFillShopExpeditionLog.button1,{qst:Continue}
+EventBuyExpeditionLog.text,{qst:Buy.text}
+EventBuyExpeditionLog.button1,{qst:Buy.button1}
+TokenBuyPithHelmet.text,There's a Pith Helmet with a tag attached saying 2$
+TokenBuyPithHelmet.button1,{action}Buy the Pith Helmet for 2$
+EventFillShopPithHelmet.text,A Pith Helmet lies here with a pricetag attached.
+EventFillShopPithHelmet.button1,{qst:Continue}
+EventBuyPithHelmet.text,{qst:Buy.text}
+EventBuyPithHelmet.button1,{qst:Buy.button1}
+TokenBuyJeweledSkull.text,There's a Jeweled Skull with a tag attached saying 4$
+TokenBuyJeweledSkull.button1,{action}Buy the Jeweled Skull for 4$
+EventFillShopJeweledSkull.text,A Jeweled Skull lies here with a pricetag attached.
+EventFillShopJeweledSkull.button1,{qst:Continue}
+EventBuyJeweledSkull.text,{qst:Buy.text}
+EventBuyJeweledSkull.button1,{qst:Buy.button1}
+TokenBuyLuckyBandana.text,There's a Lucky Bandana with a tag attached saying 2$
+TokenBuyLuckyBandana.button1,{action}Buy the Lucky Bandana for 2$
+EventFillShopLuckyBandana.text,A Lucky Bandana lies here with a pricetag attached.
+EventFillShopLuckyBandana.button1,{qst:Continue}
+EventBuyLuckyBandana.text,{qst:Buy.text}
+EventBuyLuckyBandana.button1,{qst:Buy.button1}
+TokenBuyMatches.text,There's a Matches with a tag attached saying 1$
+TokenBuyMatches.button1,{action}Buy the Matches for 1$
+EventFillShopMatches.text,A Matches lies here with a pricetag attached.
+EventFillShopMatches.button1,{qst:Continue}
+EventBuyMatches.text,{qst:Buy.text}
+EventBuyMatches.button1,{qst:Buy.button1}
+TokenBuyOtherworldlyCompass.text,There's a Otherworldly Compass with a tag attached saying 3$
+TokenBuyOtherworldlyCompass.button1,{action}Buy the Otherworldly Compass for 3$
+EventFillShopOtherworldlyCompass.text,A Otherworldly Compass lies here with a pricetag attached.
+EventFillShopOtherworldlyCompass.button1,{qst:Continue}
+EventBuyOtherworldlyCompass.text,{qst:Buy.text}
+EventBuyOtherworldlyCompass.button1,{qst:Buy.button1}
+TokenBuySerpentBracelet.text,There's a Serpent Bracelet with a tag attached saying 2$
+TokenBuySerpentBracelet.button1,{action}Buy the Serpent Bracelet for 2$
+EventFillShopSerpentBracelet.text,A Serpent Bracelet lies here with a pricetag attached.
+EventFillShopSerpentBracelet.button1,{qst:Continue}
+EventBuySerpentBracelet.text,{qst:Buy.text}
+EventBuySerpentBracelet.button1,{qst:Buy.button1}
+TokenBuySurvivalKnife.text,There's a Survival Knife with a tag attached saying 2$
+TokenBuySurvivalKnife.button1,{action}Buy the Survival Knife for 2$
+EventFillShopSurvivalKnife.text,A Survival Knife lies here with a pricetag attached.
+EventFillShopSurvivalKnife.button1,{qst:Continue}
+EventBuySurvivalKnife.text,{qst:Buy.text}
+EventBuySurvivalKnife.button1,{qst:Buy.button1}
+TokenBuySurvivalPack.text,There's a Survival Pack with a tag attached saying 3$
+TokenBuySurvivalPack.button1,{action}Buy the Survival Pack for 3$
+EventFillShopSurvivalPack.text,A Survival Pack lies here with a pricetag attached.
+EventFillShopSurvivalPack.button1,{qst:Continue}
+EventBuySurvivalPack.text,{qst:Buy.text}
+EventBuySurvivalPack.button1,{qst:Buy.button1}
+TokenBuyTimewornBrand.text,There's a Timeworn Brand with a tag attached saying 4$
+TokenBuyTimewornBrand.button1,{action}Buy the Timeworn Brand for 4$
+EventFillShopTimewornBrand.text,A Timeworn Brand lies here with a pricetag attached.
+EventFillShopTimewornBrand.button1,{qst:Continue}
+EventBuyTimewornBrand.text,{qst:Buy.text}
+EventBuyTimewornBrand.button1,{qst:Buy.button1}
+TokenBuyFeedtheMind.text,There's a Feed the Mind with a tag attached saying 5$
+TokenBuyFeedtheMind.button1,{action}Buy the Feed the Mind for 5$
+EventFillShopFeedtheMind.text,A Feed the Mind lies here with a pricetag attached.
+EventFillShopFeedtheMind.button1,{qst:Continue}
+EventBuyFeedtheMind.text,{qst:Buy.text}
+EventBuyFeedtheMind.button1,{qst:Buy.button1}
+TokenBuyFleshWard.text,There's a Flesh Ward with a tag attached saying 5$
+TokenBuyFleshWard.button1,{action}Buy the Flesh Ward for 5$
+EventFillShopFleshWard.text,A Flesh Ward lies here with a pricetag attached.
+EventFillShopFleshWard.button1,{qst:Continue}
+EventBuyFleshWard.text,{qst:Buy.text}
+EventBuyFleshWard.button1,{qst:Buy.button1}
+TokenBuyInstillBravery.text,There's a Instill Bravery with a tag attached saying 5$
+TokenBuyInstillBravery.button1,{action}Buy the Instill Bravery for 5$
+EventFillShopInstillBravery.text,A Instill Bravery lies here with a pricetag attached.
+EventFillShopInstillBravery.button1,{qst:Continue}
+EventBuyInstillBravery.text,{qst:Buy.text}
+EventBuyInstillBravery.button1,{qst:Buy.button1}
+TokenBuyShriveling.text,There's a Shriveling with a tag attached saying 3$
+TokenBuyShriveling.button1,{action}Buy the Shriveling for 3$
+EventFillShopShriveling.text,A Shriveling lies here with a pricetag attached.
+EventFillShopShriveling.button1,{qst:Continue}
+EventBuyShriveling.text,{qst:Buy.text}
+EventBuyShriveling.button1,{qst:Buy.button1}
+TokenBuyWither.text,There's a Wither with a tag attached saying 3$
+TokenBuyWither.button1,{action}Buy the Wither for 3$
+EventFillShopWither.text,A Wither lies here with a pricetag attached.
+EventFillShopWither.button1,{qst:Continue}
+EventBuyWither.text,{qst:Buy.text}
+EventBuyWither.button1,{qst:Buy.button1}
+TokenBuyWrack.text,There's a Wrack with a tag attached saying 4$
+TokenBuyWrack.button1,{action}Buy the Wrack for 4$
+EventFillShopWrack.text,A Wrack lies here with a pricetag attached.
+EventFillShopWrack.button1,{qst:Continue}
+EventBuyWrack.text,{qst:Buy.text}
+EventBuyWrack.button1,{qst:Buy.button1}
+TokenBuyArcaneInsight.text,There's a Arcane Insight with a tag attached saying 3$
+TokenBuyArcaneInsight.button1,{action}Buy the Arcane Insight for 3$
+EventFillShopArcaneInsight.text,A Arcane Insight lies here with a pricetag attached.
+EventFillShopArcaneInsight.button1,{qst:Continue}
+EventBuyArcaneInsight.text,{qst:Buy.text}
+EventBuyArcaneInsight.button1,{qst:Buy.button1}
+TokenBuyPoisonMist.text,There's a Poison Mist with a tag attached saying 2$
+TokenBuyPoisonMist.button1,{action}Buy the Poison Mist for 2$
+EventFillShopPoisonMist.text,A Poison Mist lies here with a pricetag attached.
+EventFillShopPoisonMist.button1,{qst:Continue}
+EventBuyPoisonMist.text,{qst:Buy.text}
+EventBuyPoisonMist.button1,{qst:Buy.button1}
+TokenBuyAzureFlame.text,There's a Azure Flame with a tag attached saying 3$
+TokenBuyAzureFlame.button1,{action}Buy the Azure Flame for 3$
+EventFillShopAzureFlame.text,A Azure Flame lies here with a pricetag attached.
+EventFillShopAzureFlame.button1,{qst:Continue}
+EventBuyAzureFlame.text,{qst:Buy.text}
+EventBuyAzureFlame.button1,{qst:Buy.button1}
+TokenBuyForcedLearning.text,There's a Forced Learning with a tag attached saying 4$
+TokenBuyForcedLearning.button1,{action}Buy the Forced Learning for 4$
+EventFillShopForcedLearning.text,A Forced Learning lies here with a pricetag attached.
+EventFillShopForcedLearning.button1,{qst:Continue}
+EventBuyForcedLearning.text,{qst:Buy.text}
+EventBuyForcedLearning.button1,{qst:Buy.button1}
+TokenBuyImplantSuggestion.text,There's a Implant Suggestion with a tag attached saying 3$
+TokenBuyImplantSuggestion.button1,{action}Buy the Implant Suggestion for 3$
+EventFillShopImplantSuggestion.text,A Implant Suggestion lies here with a pricetag attached.
+EventFillShopImplantSuggestion.button1,{qst:Continue}
+EventBuyImplantSuggestion.text,{qst:Buy.text}
+EventBuyImplantSuggestion.button1,{qst:Buy.button1}
+TokenBuyBinding.text,There's a Binding with a tag attached saying 2$
+TokenBuyBinding.button1,{action}Buy the Binding for 2$
+EventFillShopBinding.text,A Binding lies here with a pricetag attached.
+EventFillShopBinding.button1,{qst:Continue}
+EventBuyBinding.text,{qst:Buy.text}
+EventBuyBinding.button1,{qst:Buy.button1}
+TokenBuySpectralRazor.text,There's a Spectral Razor with a tag attached saying 3$
+TokenBuySpectralRazor.button1,{action}Buy the Spectral Razor for 3$
+EventFillShopSpectralRazor.text,A Spectral Razor lies here with a pricetag attached.
+EventFillShopSpectralRazor.button1,{qst:Continue}
+EventBuySpectralRazor.text,{qst:Buy.text}
+EventBuySpectralRazor.button1,{qst:Buy.button1}
+TokenBuyMistsofRlyeh.text,There's a Mists of R'lyeh with a tag attached saying 4$
+TokenBuyMistsofRlyeh.button1,{action}Buy the Mists of R'lyeh for 4$
+EventFillShopMistsofRlyeh.text,A Mists of R'lyeh lies here with a pricetag attached.
+EventFillShopMistsofRlyeh.button1,{qst:Continue}
+EventBuyMistsofRlyeh.text,{qst:Buy.text}
+EventBuyMistsofRlyeh.button1,{qst:Buy.button1}
+TokenBuyStormofSpirits.text,There's a Storm of Spirits with a tag attached saying 3$
+TokenBuyStormofSpirits.button1,{action}Buy the Storm of Spirits for 3$
+EventFillShopStormofSpirits.text,A Storm of Spirits lies here with a pricetag attached.
+EventFillShopStormofSpirits.button1,{qst:Continue}
+EventBuyStormofSpirits.text,{qst:Buy.text}
+EventBuyStormofSpirits.button1,{qst:Buy.button1}
+TokenBuyPlumbtheVoid.text,There's a Plumb the Void with a tag attached saying 5$
+TokenBuyPlumbtheVoid.button1,{action}Buy the Plumb the Void for 5$
+EventFillShopPlumbtheVoid.text,A Plumb the Void lies here with a pricetag attached.
+EventFillShopPlumbtheVoid.button1,{qst:Continue}
+EventBuyPlumbtheVoid.text,{qst:Buy.text}
+EventBuyPlumbtheVoid.button1,{qst:Buy.button1}
+TokenBuyBanishment.text,There's a Banishment with a tag attached saying 2$
+TokenBuyBanishment.button1,{action}Buy the Banishment for 2$
+EventFillShopBanishment.text,A Banishment lies here with a pricetag attached.
+EventFillShopBanishment.button1,{qst:Continue}
+EventBuyBanishment.text,{qst:Buy.text}
+EventBuyBanishment.button1,{qst:Buy.button1}
+TokenBuyCalltheStorm.text,There's a Call the Storm with a tag attached saying 3$
+TokenBuyCalltheStorm.button1,{action}Buy the Call the Storm for 3$
+EventFillShopCalltheStorm.text,A Call the Storm lies here with a pricetag attached.
+EventFillShopCalltheStorm.button1,{qst:Continue}
+EventBuyCalltheStorm.text,{qst:Buy.text}
+EventBuyCalltheStorm.button1,{qst:Buy.button1}
+TokenBuySummoning.text,There's a Summoning with a tag attached saying 2$
+TokenBuySummoning.button1,{action}Buy the Summoning for 2$
+EventFillShopSummoning.text,A Summoning lies here with a pricetag attached.
+EventFillShopSummoning.button1,{qst:Continue}
+EventBuySummoning.text,{qst:Buy.text}
+EventBuySummoning.button1,{qst:Buy.button1}
+UIIntroductionButtonContinue.uitext,Continue
+EventEndShopMythos.button1,{qst:Continue}
